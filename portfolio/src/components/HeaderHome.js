@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import logoSmall from "../assets/logo.png"
 import './HeaderHome.css';
 
 function HeaderHome(props) {
@@ -7,7 +8,7 @@ function HeaderHome(props) {
     <nav className="nav">
       <div>
         <a href="/" className="logo">
-          <img src={logo} />
+          <img src={logoSmall} />
         </a>
       </div>
       <div>
