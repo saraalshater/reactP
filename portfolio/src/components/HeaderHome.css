@@ -8,7 +8,7 @@ body {
 
 .nav{
     position: absolute;
-    height: 224px;
+    height: 172px;
     left: 0px;
     right: 0px;
     top: 0px;
@@ -27,25 +27,26 @@ body {
     gap: 10px;
     
     position: absolute;
-    width: 233px;
-    height: 99px;
-    left: calc(50% - 233px/2 - 0.5px);
-    top: 32px;
+    width: 201px;
+    height: 79px;
+    left: calc(50% - 201px/2 + 0.5px);
+    top: 27px;
 }
 
 
 nav ul {
     list-style: none;
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 91px;
-position: absolute;
-width: 631px;
-height: 22px;
-left: calc(50% - 631px/2 - 0.5px);
-top: 167px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 77px;
+    
+    position: absolute;
+    width: 517px;
+    height: 15px;
+    left: calc(50% - 517px/2 - 0.5px);
+    top: 120px;
 
 }
 
@@ -53,8 +54,17 @@ nav a {
     color: #F9F9F9;
     text-decoration: none;
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #F9F9F9;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
