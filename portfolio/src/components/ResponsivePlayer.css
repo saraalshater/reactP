@@ -5,6 +5,21 @@
   
   .react-player {
     position: absolute;
-    top: 172px;
+    top: 12em;
     left: 0;
+    
+ 
+  }
+
+
+  @media only screen and (max-width: 700px) {
+
+    .react-player {
+      position: absolute;
+      top: 4.8em;
+      left: 0;
+      
+   
+    }
+
   }
