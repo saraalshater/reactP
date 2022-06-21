@@ -9,12 +9,13 @@ const ResponsivePlayer = () => {
     <div className="player-wrapper">
       <ReactPlayer
         className="react-player"
-        url="https://www.youtube.com/watch?v=wb1KeAtL2TY"
+        url="https://player.vimeo.com/video/708876679?h=3568d421d8"
         width="100%"
         height="100%"
         loop={true}  
       playing={true}
       />
+    
     </div>
   );
 };
