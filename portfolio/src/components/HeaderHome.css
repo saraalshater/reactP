@@ -37,6 +37,9 @@ body {
 .logo-mobile {
   display: none;
 }
+.home-mobile {
+  display: none;
+}
 .burger-menu {
   display: none;
 }
@@ -47,12 +50,11 @@ nav ul {
   align-items: flex-start;
   padding: 0px;
   gap: 77px;
-
   position: absolute;
   width: 517px;
   height: 15px;
   left: calc(50% - 517px / 2 - 0.5px);
-  top: 120px;
+  top: 130px;
 }
 
 nav a {
@@ -72,33 +74,29 @@ nav a {
   order: 0;
   flex-grow: 0;
 }
-nav li a:hover{
-    color: #f9f9f9;
-    border-bottom:solid  #f9f9f9 3px;
+
+nav li:hover {
+  color: #f9f9f9;
+  border-bottom: solid #f9f9f9 3px;
 }
 
+
 @media only screen and (max-width: 700px) {
-    .nav {
-        position: fixed;
-      
-        left: 0px;
-        right: 0px;
-        top: 0px;
-        padding: 2.4em;
-      
-        /* Primary/Green */
-      
-        background: #3e8f62;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        z-index: 1;
-       
-        
-      }
+  .nav {
+    position: fixed;
+    
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    padding: 2.4em;
+
+    background: #3e8f62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+  }
   .logo {
     display: none;
   }
-
-
 
   .logo-mobile {
     display: flex;
@@ -124,7 +122,32 @@ nav li a:hover{
     display: block;
   }
 
+  .rightNav-container {
+    position: absolute;
+    width: 219px;
+    height: 640px;
+    right: 0px;
+    top: 0px;
+
+    /* Primary/Green */
+
+    background: #3e8f62;
+    box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+  }
+
   nav ul {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+  }
+
+  li {
+    color: #fcfcfc;
+  }
+
+  .home-mobile {
+    display: block;
   }
 }
