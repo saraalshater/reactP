@@ -1,26 +1,24 @@
 
 
-
-
-function UxUi(props) {
-     return (
-        <>
+function UxUi(params) {
+  return(
+      <>
         <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/><br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <h1>HEY HERE IS UX AND UI CONTENT</h1>
-        </>
-     )
+      <br/>
+      <br/>
+      <br/>
+      <br/><br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <h1>Programming content</h1>
     
-
+      </>
+  )
 }
+
 
 export default UxUi;
