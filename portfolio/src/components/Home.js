@@ -24,7 +24,7 @@ function Home(props) {
       </header>
 
       <body>
-        {/* <div><ResponsivePlayer /></div> */}
+        <div><ResponsivePlayer /></div>
 
         <div className="container">
           <div className="name-card">

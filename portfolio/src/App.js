@@ -9,6 +9,8 @@ import Programming from "./components/Programming";
 import Arts from "./components/Arts";
 import AboutMe from "./components/AboutMe";
 import Home from "./components/Home";
+import WebHeader from "./components/WebHeader";
+
 function App() {
   return (
     <>
@@ -21,7 +23,7 @@ function App() {
           <Route path="/about" element={<AboutMe />} /> */}
         </Routes>
 
-        
+      <WebHeader/>
      
  
     </>
