@@ -56,7 +56,7 @@ button:hover {
 }
 .lastest-projects-container {
   
-  padding: 15em 3em 4em 3em;
+  padding: 15em 3em 1em 3em;
 
 }
 .lastest-projects-contants {
@@ -131,12 +131,12 @@ font-size: 30px;
     /* align-items: flex-start; */
   
     position: absolute;
-    padding: 7em 4em 1em 0em;
+    padding: 7em 2em 0em 2em;
   }
 
   .lastest-projects-container {
-  
-    padding: 0.2em 1em 4em 2em;
+    
+    padding: 0.2em 0em 0em 0em;
   
   }
   .Cards-container {

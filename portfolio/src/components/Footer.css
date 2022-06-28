@@ -2,15 +2,13 @@
     box-sizing: border-box;
   }
   
-  body {
-    margin: 0;
-  }
+ 
 
   .footer{
     background-color: #E8C559;
     color: #32302d;
     margin: 0 auto;
-   
+    text-align: center;
     width: 100%;
 
     padding: 1em;
@@ -19,6 +17,27 @@
 
 
   .footer p{
-
+font-size: 20px;
   }
 
+
+
+  @media only screen and (max-width: 700px) {
+    .footer{
+      position: absolute;
+      left: 0;
+      text-align: center;
+   top: 142.8rem;
+      width: 100%;
+      
+      
+    
+  
+    }
+
+
+    .footer p{
+      font-size: 16px;
+        }
+      
+  }
