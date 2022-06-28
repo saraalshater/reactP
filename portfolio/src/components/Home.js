@@ -7,6 +7,7 @@ import Programming from "./Programming";
 import Arts from "./Arts";
 import AboutMe from "./AboutMe";
 import "./Home.css";
+import Card from "./Card";
 
 function Home(props) {
   return (
@@ -35,6 +36,23 @@ function Home(props) {
             </p>
             <button>Contact me</button>
           </div>
+        </div>
+
+
+        <div className="lastest-projects-container">
+          <div className="lastest-projects-contants">
+            <h1>Lastest Projects</h1>
+            <div className="Cards-container">
+                 <Card/>
+                 <Card/> 
+                 <Card/>
+                
+            </div>
+
+          </div>
+        
+
+
         </div>
       </body>
     </>
