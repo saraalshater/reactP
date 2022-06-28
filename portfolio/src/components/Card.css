@@ -1,0 +1,76 @@
+.card-container {
+  background-color:  #FCFCFC;
+  
+ 
+  /* padding-bottom: 1rem; */
+
+}
+
+.card-img {
+  
+  width: 100%;
+  object-fit: cover;
+ height: max(17rem, 30vh);
+  max-height: max(rem, 35vh);
+  aspect-ratio: 4/3;
+
+
+}
+
+
+h2 {
+  font-size: 23px;
+}
+
+.category {
+   color: #818181;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-btn {
+  margin-top: 2em;
+  background: #3e8f62;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway";
+
+  border: none;
+  border-radius: 5px;
+  padding: 11px 27px;
+}
+.card-btn:hover {
+  cursor: pointer;
+
+  box-shadow: 2px 2px #32302d;
+
+  transform: translate(-3px, -3px);
+
+  border-bottom-right-radius: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+  h2 {
+    color:#32302d;
+    font-size: 18px;
+  }
+
+  .category{
+    font-size: 15px;
+  }
+
+  
+  .card-btn {
+    margin-top: 2em;
+    background: #3e8f62;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: "Raleway";
+  
+    border: none;
+    border-radius: 5px;
+    padding: 11px 27px;
+  }
+}

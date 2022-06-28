@@ -10,6 +10,7 @@ import Arts from "./components/Arts";
 import AboutMe from "./components/AboutMe";
 import Home from "./components/Home";
 import WebHeader from "./components/WebHeader";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         </Routes>
 
       <WebHeader/>
-     
+     <Footer/>
  
     </>
   );
