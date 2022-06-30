@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-top: 6.8em;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.intro-bg {
+  float: left;
+  
+  width: 50%;
+  height: 100%;
+  background-image: url("../assets/dot-cut.png");
+  background-color: #cee7cd;
+ 
+}
+
+.intro{
+    padding: 6em 3em 5em 4em;
+}
+.overview-img-container {
+  float: right;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.about-project-container{
+    width: 100%;
+}
+
+.about-project{
+    margin: 0 auto;
+    width: 50%;
+}

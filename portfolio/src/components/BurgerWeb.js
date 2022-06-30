@@ -1,11 +1,8 @@
+
 import styled from'styled-components';
-import React, { useState } from 'react';
 import RightNav from './RightNav';
-import "./HeaderHome.css";
-
-// import { Link } from "react-router-dom";
-// import burgerMenu from "../assets/burger-menu.png";
-
+import React, { useState } from 'react';
+import RightNavWeb from './RightNavWeb';
 
 export const StyledBurger = styled.div`
 
@@ -46,24 +43,27 @@ div {
 `;
 
 
-function Burger() {
 
-  const [open, setOpen] = useState(false);
+function BurgerWeb () {
 
-  return (
-    <>
-    
+    const [open, setOpen] = useState(false);
 
-<StyledBurger  open={open} onClick={() => setOpen(!open)}>
-<div/>
-<div/>
-<div/>
+    return (
+      <>
+      
+  
+  <StyledBurger  open={open} onClick={() => setOpen(!open)}>
+  <div/>
+  <div/>
+  <div/>
+  
+  </StyledBurger>
+  <RightNavWeb open={open}/>
+ 
+      </>
+    );
 
-</StyledBurger>
-<RightNav open={open}/>
-
-    </>
-  );
 }
 
-export default Burger;
+
+export default BurgerWeb;

@@ -1,27 +1,21 @@
 import ResponsivePlayer from "./ResponsivePlayer";
 import HeaderHome from "./HeaderHome";
 
-import { Routes, Route } from "react-router-dom";
-import UxUi from "./UxUi";
-import Programming from "./Programming";
-import Arts from "./Arts";
-import AboutMe from "./AboutMe";
+
 import "./Home.css";
 import Card from "./Card";
+import example from "../assets/2.png"
+
+import foto from "../assets/foto.jpg"
+import examplefoto from "../assets/examplefoto.jpg"
+
 
 function Home(props) {
+ 
   return (
     <>
       <header>
-        <div>
-          <HeaderHome />
-          <Routes>
-            <Route path="/uxui" element={<UxUi />} />
-            <Route path="/programming" element={<Programming />} />
-            <Route path="/arts" element={<Arts />} />
-            <Route path="/about" element={<AboutMe />} />
-          </Routes>
-        </div>
+      <HeaderHome />
       </header>
 
       <body>
@@ -43,9 +37,9 @@ function Home(props) {
           <div className="lastest-projects-contants">
             <h1>Lastest Projects</h1>
             <div className="Cards-container">
-                 <Card/>
-                 <Card/> 
-                 <Card/>
+                 <Card img={foto} title="project1" category="Ux" />
+                 <Card img={example} title="project2" category="Ui"/> 
+                 <Card img={examplefoto} title="project3" category="Ui"/>
                 
             </div>
 
@@ -55,7 +49,7 @@ function Home(props) {
 
         </div>
       </body>
-      
+     
     </>
   );
 }

@@ -3,14 +3,14 @@ import example from "../assets/2.png"
 import "./Card.css";
 import foto from "../assets/foto.jpg"
 
-function Card(params) {
+function Card(props) {
     return(
         <>
       <div className="card-container">
-        <img src={foto} alt="example" className="card-img" />
-        <h2>Project name</h2>
-        <p className="category">Category</p>
-        <Link to="/uxui">   
+        <img src={props.img} alt="example" className="card-img" />
+        <h2>{props.title}</h2>
+        <p className="category">{props.category}</p>
+        <Link to="/">   
         <button className="card-btn">Veiw</button>
         </Link>
       </div>
