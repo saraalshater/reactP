@@ -15,18 +15,6 @@ function HeaderHome(props) {
   
   return (
     <>
-    {/* <div>
-      <Link to="/" className="logo">
-        <img src={logoSmall} alt="logo"/>
-      </Link>
-    </div> */}
-
-
-  
-
-    
-
-
     <Burger />
         
      </>

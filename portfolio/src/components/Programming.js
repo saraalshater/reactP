@@ -1,21 +1,14 @@
+import ProjectView from "./ProjectView";
 
 
 
 function Programming(params) {
     return(
         <>
-          <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/><br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <h1>Programming content</h1>
+
+
+
+      <ProjectView/>
       
         </>
     )
