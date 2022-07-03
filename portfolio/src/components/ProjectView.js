@@ -3,6 +3,9 @@ import foto from "../assets/foto.jpg";
 import "./ProjectView.css";
 import BurgerWeb from "./BurgerWeb";
 import sky from "../assets/sky.png";
+import Card from "./Card";
+
+import examplefoto from "../assets/examplefoto.jpg"
 function ProjectView() {
   return (
     <>
@@ -82,9 +85,55 @@ function ProjectView() {
 
 
 
-      <div>
+      <div className="project-pictures-bg">
+        <h2>Project pictures</h2>
+<div className="project-pictures"> 
+<div className="img-frame">
+<img src={foto} alt="img" className="img-pro" />
+</div>
 
+<div className="img-frame">
+<img src={sky} alt="img" className="img-pro"/>
+</div>
+
+<div className="img-frame">
+<img src={example} alt="img" className="img-pro"/>
+</div>
+
+<div className="img-frame">
+<img src={foto} alt="img" className="img-pro"/>
+</div>
+
+<div className="img-frame">
+<img src={foto} alt="img" className="img-pro"/>
+</div>
+
+<div className="img-frame">
+<img src={foto} alt="img" className="img-pro"/>
+</div>
+
+
+
+</div>
       </div>
+
+      <div className="related-projects-container">
+          <div className="related-projects-contants">
+            <h2>Check out related prohects</h2>
+            <div className="Cards-container">
+                 <Card img={foto} title="project1" category="Ux" />
+                 <Card img={example} title="project2" category="Ui"/> 
+                 <Card img={examplefoto} title="project3" category="Ui"/>
+                
+            </div>
+
+          </div>
+        
+
+
+        </div>
+
+      
     </>
   );
 }

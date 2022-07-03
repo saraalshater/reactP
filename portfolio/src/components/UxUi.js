@@ -8,7 +8,8 @@ import "./BurgerWeb.css"
 import BurgerWeb from "./BurgerWeb";
 import "./UxUi.css";
 import RightNav from "./RightNav";
-
+import uxillus from "../assets/uxuiIllustration.png"
+import uxillusAlign from "../assets/uxillusAlign.png"
 function UxUi(params) {
   return(
  <>
@@ -16,13 +17,22 @@ function UxUi(params) {
 
  <BurgerWeb />
  <div className="illstration-container">
-          <div className="illstration">
-            <h1>Sara Alshater</h1>
+  
+   
+ <div className="illstration-caption">
+            <h1>UX is about empathy</h1>
             <p>
               UX/UI Designer and Web Developer that has multiple interests, and
               passion for design and arts.
             </p>
           </div>
+
+          <div className="uxDrawing">
+            <img  className="pic1" src={uxillus} alt="people holding phones" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
+            <img className="pic2"src={uxillusAlign} alt="people holding phones" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
+          </div>
+
+         
         </div>
  
  <div className="ux-projects-container">

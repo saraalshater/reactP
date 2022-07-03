@@ -7,21 +7,19 @@
   width: 100%;
   position: relative;
   overflow: hidden;
-
 }
 
 .intro-bg {
   float: left;
-  
+
   width: 50%;
   height: 100%;
   background-image: url("../assets/dot-cut.png");
   background-color: #cee7cd;
- 
 }
 
-.intro{
-    padding: 6em 3em 5em 4em;
+.intro {
+  padding: 6em 3em 5em 4em;
 }
 .overview-img-container {
   float: right;
@@ -32,12 +30,84 @@
   top: 0;
 }
 
-
-.about-project-container{
-    width: 100%;
+.about-project-container {
+  width: 100%;
 }
 
-.about-project{
-    margin: 0 auto;
-    width: 50%;
+.about-project {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.project-pictures-bg{
+    padding: 6em 3em 5em 3em;
+    /* border: red solid 5px; */
+   
+}
+
+.project-pictures {
+    
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 2fr));
+  grid-gap: 2rem;
+  max-width: 100%;
+  width: 128ch;
+  /* border: red solid 5px; */
+
+
+}
+
+.img-frame {
+
+width: 100%;
+  
+
+}
+
+.img-pro{
+    display: block;
+    width: 100%;
+    height: max(20rem, 30vh);
+    max-height: max(rem, 35vh);
+    object-fit: cover;
+}
+
+
+.related-projects-container {
+  
+  padding: 0em 3em 1em 3em;
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .row {
+    margin-top: 4.8em;
+    width: 100%;
+    
+  }  
+  .intro-bg{
+  float: none;
+  width: 100%;
+  height: 60%;
+  padding-top: 16em;
+}
+
+.overview-img-container{
+  float: none;
+  width: 100%;
+  height: 40%;
+}
+
+.intro {
+  padding: 2em 3em 1em 3em;
+}
+
+.about-project {
+  
+  width: 100%;
+  padding: 2em 3em 0em 3em;
+}
+
 }
