@@ -10,17 +10,22 @@ import AboutMe from "./components/AboutMe";
 import Home from "./components/Home";
 import WebHeader from "./components/WebHeader";
 import Footer from "./components/Footer";
+import ProjectView from "./components/ProjectView";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="/uxui" element={<UxUi />} />
+        <Route path="/uxui" element={<UxUi />}/>
+        
+       
+
         <Route path="/programming" element={<Programming />} />
         <Route path="/arts" element={<Arts />} />
         <Route path="/about" element={<AboutMe />} />
       </Routes>
+
 
       <WebHeader />
 
