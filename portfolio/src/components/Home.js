@@ -8,17 +8,20 @@ import example from "../assets/2.png"
 
 import foto from "../assets/foto.jpg"
 import examplefoto from "../assets/examplefoto.jpg"
+import data from "./Data";
+
+import { useState } from "react";
 
 
-function Home(props) {
- 
+function Home() {
+  const [cardItem, setMenuItem] = useState(data);
   return (
     <>
-      <header>
+      
       <HeaderHome />
-      </header>
+     
 
-      <body>
+      
         <div><ResponsivePlayer /></div>
 
         <div className="container">
@@ -36,10 +39,9 @@ function Home(props) {
         <div className="lastest-projects-container">
           <div className="lastest-projects-contants">
             <h1>Lastest Projects</h1>
-            <div className="Cards-container">
-                 <Card img={foto} title="project1" category="Ux" />
-                 <Card img={example} title="project2" category="Ui"/> 
-                 <Card img={examplefoto} title="project3" category="Ui"/>
+            
+                 <Card cardItem={cardItem} />
+               
                 
             </div>
 
@@ -47,8 +49,8 @@ function Home(props) {
         
 
 
-        </div>
-      </body>
+        
+      
      
     </>
   );

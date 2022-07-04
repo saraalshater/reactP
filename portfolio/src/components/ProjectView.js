@@ -4,9 +4,12 @@ import "./ProjectView.css";
 import BurgerWeb from "./BurgerWeb";
 import sky from "../assets/sky.png";
 import Card from "./Card";
+import data from "./Data";
+import { useState } from "react";
 
 import examplefoto from "../assets/examplefoto.jpg"
 function ProjectView() {
+  const [cardItem, setCardItem] = useState(data);
   return (
     <>
       <BurgerWeb />
@@ -121,9 +124,7 @@ function ProjectView() {
           <div className="related-projects-contants">
             <h2>Check out related prohects</h2>
             <div className="Cards-container">
-                 <Card img={foto} title="project1" category="Ux" />
-                 <Card img={example} title="project2" category="Ui"/> 
-                 <Card img={examplefoto} title="project3" category="Ui"/>
+            <Card cardItem={cardItem} />
                 
             </div>
 

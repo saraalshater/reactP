@@ -3,18 +3,26 @@ import example from "../assets/2.png"
 import "./Card.css";
 import foto from "../assets/foto.jpg"
 
-function Card(props) {
+function Card({cardItem}) {
+
+  
     return(
         <>
+        <div className="Cards-container">
+          { cardItem.map((item) =>{
+            return (
       <div className="card-container">
-        <img src={props.img} alt="example" className="card-img" />
-        <h2>{props.title}</h2>
-        <p className="category">{props.category}</p>
-        <Link to="/">   
+        <img src={item.img} alt="example" className="card-img" />
+        <h2>{item.title}</h2>
+        <p className="category">{item.category}</p>
+        <Link to="/uxui">   
         <button className="card-btn">Veiw</button>
         </Link>
       </div>
-      
+      );
+       })
+      }
+      </div>
         </>
     )
 }

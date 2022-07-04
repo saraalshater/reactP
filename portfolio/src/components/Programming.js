@@ -6,9 +6,8 @@ function Programming(params) {
     return(
         <>
 
+<ProjectView/>
 
-
-      <ProjectView/>
       
         </>
     )

@@ -1,0 +1,33 @@
+
+
+.fltr-container{
+  margin-top: 8em;
+padding: 1em;
+width: 100%;
+
+text-align: center;
+}
+
+
+.fltr-btn{
+   
+    float: none;
+    background: #FCFCFC;
+    color :#818181;
+    border: none;
+}
+
+.fltr-btn:hover{
+    cursor: pointer;
+
+    box-shadow: none;
+  
+    transform: none;
+  
+ 
+}
+
+.fltr-btn:focus {
+    background: #E8C559;
+    color: #32302D;
+  }
