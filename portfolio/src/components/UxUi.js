@@ -1,6 +1,7 @@
 import Card from "./Card";
 import example from "../assets/2.png";
 import { Routes, Route, useParams } from "react-router-dom";
+import {uxData, uiData} from "./Data";
 import foto from "../assets/foto.jpg";
 import examplefoto from "../assets/examplefoto.jpg";
 import Burger from "./Burger";
@@ -11,22 +12,24 @@ import RightNav from "./RightNav";
 import uxillus from "../assets/uxuiIllustration.png";
 import uxillusAlign from "../assets/uxillusAlign.png";
 import { useState } from "react";
-import data from "./Data";
-// import ProjectView from "./ProjectView";
+import Ui from "./Ui";
+
+import ProjectView from "./ProjectView";
 
 function UxUi(params) {
-  const [cardItem, setCardItem] = useState(data);
-  const { id } = useParams();
+  const [cardItem, setCardItem] = useState(uxData);
+ 
+  const selectedPrject = uxData.filter(item => item.category === "Ui"); 
+
 
   return (
     <>
       <BurgerWeb />
       <div className="illstration-container">
         <div className="illstration-caption">
-          <h1>UX is about empathy</h1>
+          <h1>UX </h1>
           <p>
-            UX/UI Designer and Web Developer that has multiple interests, and
-            passion for design and arts.
+        Lorem 
           </p>
         </div>
 
@@ -48,14 +51,25 @@ function UxUi(params) {
 
       <div className="ux-projects-container">
         <div className="ux-projects-contants">
-          <h1>UX</h1>
-          <div className="ux-Cards-container">
-          <Card cardItem={cardItem} />
-          </div>
+
+        {cardItem.map((item) => {
+          return (
+            <>
+              <h1>{item.category}</h1>
+              <div className="ux-Cards-container">
+                <Card cardItem={cardItem} />
+              </div>
+            </>
+          );
+        })}
         </div>
       </div>
 
-      <div className="ui-projects-container">
+
+
+
+<Ui/>
+      {/* <div className="ui-projects-container">
         <div className="ui-projects-contants">
           <h1>UI</h1>
           <div className="ui-Cards-container">
@@ -63,7 +77,7 @@ function UxUi(params) {
           
           </div>
         </div>
-      </div>
+      </div> */}
 {/* <Routes>
       <Route path="projectview" element={<ProjectView/>} />
       </Routes> */}
