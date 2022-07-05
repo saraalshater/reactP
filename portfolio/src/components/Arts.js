@@ -1,4 +1,5 @@
 import data from "./Data";
+
 import "./Card.css";
 import Button from "./Button";
 import { useState } from "react";
@@ -7,6 +8,7 @@ import Card from "./Card";
 import watering from "../assets/wateing-png.png";
 import uxillusAlign from "../assets/uxillusAlign.png";
 import"./Art.css";
+import BurgerWeb from "./BurgerWeb";
 
 
 const allCategories = ['All', ...new Set(data.map(item => item.category))];
@@ -28,6 +30,7 @@ const filter = (button) => {
   
   return (
     <>
+     <BurgerWeb />
     <div className="illstration-container">
   
    
