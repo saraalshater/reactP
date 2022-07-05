@@ -1,6 +1,6 @@
 import Card from "./Card";
 import example from "../assets/2.png";
-
+import { Routes, Route, useParams } from "react-router-dom";
 import foto from "../assets/foto.jpg";
 import examplefoto from "../assets/examplefoto.jpg";
 import Burger from "./Burger";
@@ -12,9 +12,11 @@ import uxillus from "../assets/uxuiIllustration.png";
 import uxillusAlign from "../assets/uxillusAlign.png";
 import { useState } from "react";
 import data from "./Data";
+// import ProjectView from "./ProjectView";
 
 function UxUi(params) {
   const [cardItem, setCardItem] = useState(data);
+  const { id } = useParams();
 
   return (
     <>
@@ -62,6 +64,9 @@ function UxUi(params) {
           </div>
         </div>
       </div>
+{/* <Routes>
+      <Route path="projectview" element={<ProjectView/>} />
+      </Routes> */}
     </>
   );
 }
