@@ -6,7 +6,7 @@ function Programming(params) {
     return(
         <>
 
-<ProjectView/>
+
 
       
         </>
