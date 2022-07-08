@@ -5,7 +5,7 @@ import BurgerWeb from "./BurgerWeb";
 import sky from "../assets/sky.png";
 import Card from "./Card";
 import { useParams } from "react-router-dom"
-import data from "./Data";
+import data, { uxData } from "./Data";
 import { useState } from "react";
 
 // import examplefoto from "../assets/examplefoto.jpg";
@@ -16,7 +16,7 @@ function ProjectView() {
 
 const selectedPrject = data.filter(item => item.id == id); 
 
-
+console.log(selectedPrject);
  
 
   return (
@@ -24,14 +24,14 @@ const selectedPrject = data.filter(item => item.id == id);
       <BurgerWeb />
   
      
-      { selectedPrject.map((item) =>{
+      { selectedPrject.map((item, i) =>{
         return (         
-<div className="project" key={id}>
+<div className="project" key={i}>
       <div className="row">
         <div className="intro-bg">
           <div className="intro">
             <h4>{item.category}</h4>
-            <h1>{item.title}{id}</h1>
+            <h1>{item.title}</h1>
             <h3>brief intro</h3>
             <p>
               describtion: Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -119,9 +119,9 @@ const selectedPrject = data.filter(item => item.id == id);
         <h2>Project pictures</h2>
         <div className="project-pictures">
           <div className="img-frame">
-            <img src={foto} alt="img" className="img-pro" />
+            <img src={item.img} alt="img" className="img-pro" />
           </div>
-
+{/* 
           <div className="img-frame">
             <img src={sky} alt="img" className="img-pro" />
           </div>
@@ -140,7 +140,7 @@ const selectedPrject = data.filter(item => item.id == id);
 
           <div className="img-frame">
             <img src={foto} alt="img" className="img-pro" />
-          </div>
+          </div> */}
         </div>
       </div>
       </div>
