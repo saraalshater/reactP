@@ -6,7 +6,7 @@ function Button({button, filter}) {
       <> 
  {
                 button.map((cat, i)=>{
-                    return <button type="button" onClick={()=> filter(cat)} className="fltr-btn" >{cat}</button>
+                    return <button type="button" key={i} onClick={()=> filter(cat)} className="fltr-btn" >{cat}</button>
                 })
             }
 

@@ -8,8 +8,8 @@ import example from "../assets/2.png"
 
 import foto from "../assets/foto.jpg"
 import examplefoto from "../assets/examplefoto.jpg"
-import data from "./Data";
 
+import data from "./Data";
 import { useState } from "react";
 
 
@@ -21,8 +21,8 @@ function Home() {
       <HeaderHome />
      
 
-      
-        <div><ResponsivePlayer /></div>
+{/*       
+        <div><ResponsivePlayer /></div> */}
 
         <div className="container">
           <div className="name-card">

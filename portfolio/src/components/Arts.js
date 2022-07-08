@@ -7,64 +7,85 @@ import "./Button.css";
 import Card from "./Card";
 import watering from "../assets/wateing-png.png";
 import uxillusAlign from "../assets/uxillusAlign.png";
-import"./Art.css";
+import "./Art.css";
 import BurgerWeb from "./BurgerWeb";
 
-
-const allCategories = ['All', ...new Set(data.map(item => item.category))];
-
-function Arts() {
+const allCategories = ["All", ...new Set(data.filter(id=> id.id < 7 ).map((item) => item.category))];
+// const allCategories = ["All", ...new Set(data.filter(type => type.category === 'Film photography' && 'Collages' && 'Multimedia'|| 'Sketches' || 'Filmmaking' ).map((item) => item.category))];
+// const withoutDuplicates = [...new Set(data.category)];
+function Arts(props) {
   const [cardItem, setCardItem] = useState(data);
   const [buttons, setButtons] = useState(allCategories);
 
-const filter = (button) => {
   
-  if(button === 'All'){
-    setCardItem(data);
-    return;
-  }
-  const filteredData = data.filter(item => item.category === button)
-  setCardItem(filteredData)
-}
+  const uniqueIds = [];
+
+
 
   
+  const filter = (button) => {
+    if (button === "All"  ) {
+      setCardItem(data);
+      return;
+    } 
+    const filteredData = data.filter((item) => item.category === button);
+    filteredData.sort((a,b)=>a.category < b.category)
+    setCardItem(filteredData);
+
+  };
+
+  const uniqueCat = cardItem.filter(element => {
+    const isDuplicate = uniqueIds.includes(element.category);
+
+    if (!isDuplicate) {
+      uniqueIds.push(element.category);
+
+      return true;
+    }
+
+    return false;
+  });
+
+
+
+  console.log(uniqueCat);
+
+
   return (
     <>
-     <BurgerWeb />
-    <div className="illstration-container">
-  
-   
-  <div className="illstration-caption">
-             <h1>UX is about empathy</h1>
-             <p>
-               UX/UI Designer and Web Developer that has multiple interests, and
-               passion for design and arts.
-             </p>
-           </div>
- 
-           <div className="uxDrawing">
-             <img  className="pic1" src={watering} alt="people holding phones" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
-             <img className="pic2"src={watering} alt="people holding phones" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
-           </div>
- 
-          
-         </div>
+      <BurgerWeb />
+      <div className="illstration-container">
+        <div className="illstration-caption">
+          <h1>Arts</h1>
+          <p>lorem</p>
+        </div>
 
-<div className="fltr-container">
-      <Button button={buttons} filter={filter}/>
+        <div className="uxDrawing">
+          {/* <img  className="pic1" src={watering} alt="." style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
+             <img className="pic2"src={watering} alt="l" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img> */}
+        </div>
+      </div>
+
+      <div className="fltr-container">
+        <Button button={buttons} filter={filter} />
       </div>
       <div className="art-container">
-      { cardItem.map((item) =>{
-        return (
-          <>
-          <h2>{item.category}</h2>
-      <Card cardItem={cardItem}/>
-      </>
-        )
-    })
-  }
-  </div>
-
+        {uniqueCat.filter(id=> id.id < 7 ).map((item , i) => {
+          return (
+            <div key={i}>
+  
+              <h2>
+                
+                {item.category}
+              
+                
+                </h2>
+             <Card cardItem={cardItem} cat={item.category} />
+            </div>
+          );
+        })}
+      </div>
+     
     </>
   );
 }
