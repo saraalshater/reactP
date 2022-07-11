@@ -10,9 +10,20 @@ import WebHeader from "./components/WebHeader";
 import Footer from "./components/Footer";
 import ProjectView from "./components/ProjectView";
 
+import ContactBtn from "./components/ContactBtn";
+import Contact from "./components/Contact";
+
+
 function App() {
+
+
+
   return (
     <>
+
+
+
+
       <Routes>
         <Route path="/" exact element={<Home />} />
 
@@ -21,6 +32,7 @@ function App() {
         <Route path="/programming" element={<Programming />} />
         <Route path="/arts" element={<Arts />} />
         <Route path="/about" element={<AboutMe />} />
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
 
       <WebHeader />

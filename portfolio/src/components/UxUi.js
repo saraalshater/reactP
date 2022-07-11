@@ -12,7 +12,7 @@ import RightNav from "./RightNav";
 import uxillus from "../assets/uxuiIllustration.png";
 import uxillusAlign from "../assets/uxillusAlign.png";
 import { Fragment, useState } from "react";
-
+import ContactBtn from "./ContactBtn";
 import ProjectView from "./ProjectView";
 
 function UxUi(params) {
@@ -32,9 +32,12 @@ function UxUi(params) {
 
     return false;
   });
+
+  
   return (
     <>
       <BurgerWeb />
+      <ContactBtn/>
       <div className="illstration-container">
         <div className="illstration-caption">
           <h1>UX </h1>

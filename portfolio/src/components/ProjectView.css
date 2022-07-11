@@ -51,7 +51,7 @@
   grid-template-columns: repeat(auto-fit, minmax(30ch, 2fr));
   grid-gap: 2rem;
   max-width: 100%;
-  width: 128ch;
+  /* width: 128ch; */
   /* border: red solid 5px; */
 
 

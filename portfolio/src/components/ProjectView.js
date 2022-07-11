@@ -7,7 +7,7 @@ import Card from "./Card";
 import { useParams } from "react-router-dom"
 import data, { uxData } from "./Data";
 import { useState } from "react";
-
+import ContactBtn from "./ContactBtn";
 // import examplefoto from "../assets/examplefoto.jpg";
 function ProjectView() {
   const [cardItem, setCardItem] = useState(data);
@@ -23,7 +23,7 @@ console.log(selectedPrject);
     <>
       <BurgerWeb />
   
-     
+     <ContactBtn/>
       { selectedPrject.map((item, i) =>{
         return (         
 <div className="project" key={i}>
@@ -34,20 +34,20 @@ console.log(selectedPrject);
             <h1>{item.title}</h1>
             <h3>brief intro</h3>
             <p>
-              describtion: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco,(describtion): Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco
+            describtion: Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco,(describtion): Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco{" "}
             </p>
           </div>
         </div>
 
         <div className="overview-img-container">
           <img
-            src={sky}
+            src={item.img}
             alt="proj-pic"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
@@ -118,9 +118,16 @@ console.log(selectedPrject);
       <div className="project-pictures-bg">
         <h2>Project pictures</h2>
         <div className="project-pictures">
-          <div className="img-frame">
-            <img src={item.img} alt="img" className="img-pro" />
+          { item.pics.map((pic,i)=> {
+            return (
+          <div className="img-frame" key={i}>
+
+            <img src={pic} alt="img" className="img-pro" />
           </div>
+          )
+          }
+          )
+          }
 {/* 
           <div className="img-frame">
             <img src={sky} alt="img" className="img-pro" />

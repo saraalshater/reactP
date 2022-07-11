@@ -9,11 +9,16 @@ import watering from "../assets/wateing-png.png";
 import uxillusAlign from "../assets/uxillusAlign.png";
 import "./Art.css";
 import BurgerWeb from "./BurgerWeb";
+import Img from './Img';
+import Contact from "./Contact";
+import ContactBtn from "./ContactBtn";
+
+
 
 const allCategories = ["All", ...new Set(data.filter(id=> id.id < 7 ).map((item) => item.category))];
 // const allCategories = ["All", ...new Set(data.filter(type => type.category === 'Film photography' && 'Collages' && 'Multimedia'|| 'Sketches' || 'Filmmaking' ).map((item) => item.category))];
 // const withoutDuplicates = [...new Set(data.category)];
-function Arts(props) {
+function Arts() {
   const [cardItem, setCardItem] = useState(data);
   const [buttons, setButtons] = useState(allCategories);
 
@@ -54,6 +59,7 @@ function Arts(props) {
   return (
     <>
       <BurgerWeb />
+      <ContactBtn/> 
       <div className="illstration-container">
         <div className="illstration-caption">
           <h1>Arts</h1>
@@ -70,8 +76,9 @@ function Arts(props) {
         <Button button={buttons} filter={filter} />
       </div>
       <div className="art-container">
+
         {uniqueCat.filter(id=> id.id < 7 ).map((item , i) => {
-          return (
+          return item.category === "Sketches" ? (
             <div key={i}>
   
               <h2>
@@ -82,9 +89,18 @@ function Arts(props) {
                 </h2>
              <Card cardItem={cardItem} cat={item.category} />
             </div>
-          );
-        })}
+            
+          ) :  <>
+               <h2>{item.category}</h2> 
+               <Img cardItem={cardItem} cat={item.category}  />
+        
+               </>
+        
+        })} 
       </div>
+
+
+
      
     </>
   );
