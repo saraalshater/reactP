@@ -1,0 +1,14 @@
+.qoute{
+    font-style: italic;
+}
+.edu-contant{
+    display: flex;
+}
+
+
+.edu-contant> div {
+    background-color: #f1f1f1;
+    margin: 1px;
+    padding: 20px;
+    
+  }
