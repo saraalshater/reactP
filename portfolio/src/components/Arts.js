@@ -15,7 +15,7 @@ import ContactBtn from "./ContactBtn";
 
 
 
-const allCategories = ["All", ...new Set(data.filter(id=> id.id < 7 ).map((item) => item.category))];
+const allCategories = ["All", ...new Set(data.filter(id=> id.id < 70 ).map((item) => item.category))];
 // const allCategories = ["All", ...new Set(data.filter(type => type.category === 'Film photography' && 'Collages' && 'Multimedia'|| 'Sketches' || 'Filmmaking' ).map((item) => item.category))];
 // const withoutDuplicates = [...new Set(data.category)];
 function Arts() {
@@ -67,20 +67,20 @@ function Arts() {
         </div>
 
         <div className="uxDrawing">
-          {/* <img  className="pic1" src={watering} alt="." style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
-             <img className="pic2"src={watering} alt="l" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img> */}
+          <img  className="pic1" src={watering} alt="." style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
+             <img className="pic2"src={watering} alt="l" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
         </div>
       </div>
 
       <div className="fltr-container">
         <Button button={buttons} filter={filter} />
       </div>
-      <div className="art-container">
 
-        {uniqueCat.filter(id=> id.id < 7 ).map((item , i) => {
-          return item.category === "Sketches" ? (
+      <div className="art-container">
+        {uniqueCat.filter(id=> id.id < 70 ).map((item , i) => {
+          return item.category === "Filmmaking" ||item.category === "Multimedia" ? (
             <div key={i}>
-  
+  <div className="art-projects-contants">
               <h2>
                 
                 {item.category}
@@ -89,13 +89,15 @@ function Arts() {
                 </h2>
              <Card cardItem={cardItem} cat={item.category} />
             </div>
-            
+            </div>
           ) :  <>
+                <div className="art-projects-contants">
+ 
                <h2>{item.category}</h2> 
                <Img cardItem={cardItem} cat={item.category}  />
-        
+               </div>
                </>
-        
+     
         })} 
       </div>
 

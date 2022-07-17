@@ -80,7 +80,7 @@ function AboutMe() {
           <h1>Education</h1>
 
           <div className="edu-contant">
-            <div style={{ flexGrow: "1", textAlign: "center" }}>
+            <div style={{ flexGrow: "1", textAlign: "left" }}>
               <img
                 src={uniJoLogo}
                 alt="University of Jordan logo"
@@ -101,7 +101,7 @@ function AboutMe() {
           </div>
 
           <div className="edu-contant">
-            <div style={{ flexGrow: "1", textAlign: "center" }}>
+            <div style={{ flexGrow: "1",  textAlign: "left" }}>
               <img
                 src={isiLogo}
                 alt="University of Jordan logo"
@@ -126,7 +126,7 @@ function AboutMe() {
           <h1>Certification</h1>
 
           <div className="edu-contant">
-            <div style={{ flexGrow: "1", textAlign: "center" }}>
+            <div style={{ flexGrow: "1",  textAlign: "left" }}>
               <img
                 src={codeLogo}
                 alt="University of Jordan logo"
@@ -147,7 +147,7 @@ function AboutMe() {
           </div>
 
           <div className="edu-contant">
-            <div style={{ flexGrow: "1", textAlign: "center" }}>
+            <div style={{ flexGrow: "1", textAlign: "left", padding: "1.5rem 2.1rem 1rem 1.3rem" }}>
               <img
                 src={googleLogo}
                 alt="University of Jordan logo"

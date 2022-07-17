@@ -2,11 +2,11 @@
     background-image: url("../assets/dot-cut.png");
     background-color: #FCFCFC;
     position: relative;
-    top: 6.8rem;
+    top: 3rem;
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     overflow: hidden;
-    padding: 2em 1.9em 1em 0em;
+    padding: 2rem 4rem 1rem 4rem;
     /* border:red solid 3px; */
 }
 .illstration-caption{
@@ -14,7 +14,8 @@
 
   width: 70%;
   height: 100%;
-    padding: 0.7em 2em 2em 3em;
+    padding-top:2.5rem;
+  
     /* border:red solid 3px; */
 
 }
@@ -28,22 +29,24 @@
 
 .uxDrawing{
   float: right;
-  width: 30%;
+  width: 20%;
   height: 100%;
   position: relative;
   /* border:red solid 3px; */
   right: 0;
   top: 0;
+   /* padding-left: 4rem; */
+   padding-bottom: 2rem;
 }
 
 
 .ux-projects-container {
   
-    padding: 10em 3em 0em 3em;
+    padding: 1rem 4rem 7rem 4rem;
   
   }
   .ux-projects-contants {
-    
+    padding-top:5rem;
   }
   .lastest-projects-contants h1 {
   font-size: 30px;
@@ -55,9 +58,7 @@
     padding: 0;
     margin: 2em 0em 4em;
   
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30ch, 2fr));
-    grid-gap: 8rem;
+  
     max-width: 100%;
     /* width: 127ch; */
     

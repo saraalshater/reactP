@@ -1,13 +1,18 @@
 .qoute{
     font-style: italic;
 }
+
+
+.Edu-Cer-container{
+    padding: 3rem 4rem 3rem 4rem;
+}
 .edu-contant{
     display: flex;
 }
 
 
 .edu-contant> div {
-    background-color: #f1f1f1;
+
     margin: 1px;
     padding: 20px;
     

@@ -1,4 +1,4 @@
-import example from "../assets/2.png";
+
 import "./Card.css";
 import foto from "../assets/foto.jpg";
 import { Link, useParams } from "react-router-dom";

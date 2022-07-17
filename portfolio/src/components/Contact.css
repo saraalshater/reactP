@@ -1,4 +1,17 @@
-.contact{
+.contact-container{
+    padding: 3rem 4rem 3rem 4rem;
+ 
+}
+
+
+
+.contact-box{
+    background-image: url("../assets/dot-cut.png");
+    border-radius: 10px;
     background-color: #CEE7CD;
     border: solid 3px #32302D;
+}
+
+.contact-content{
+    padding: 4rem;
 }

@@ -3,7 +3,7 @@
 }
 
 .row {
-  margin-top: 6.8em;
+  margin-top: 4.2em;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -17,9 +17,17 @@
   background-image: url("../assets/dot-cut.png");
   background-color: #cee7cd;
 }
-
+.brif-intro{
+  margin-bottom: -0.2rem;
+  margin-top: -1rem;
+}
 .intro {
-  padding: 6em 3em 5em 4em;
+  padding: 8.6rem 4rem 3rem 4rem;
+}
+.title{
+  margin-top: -0.9rem;
+  font-size: 40px;
+  padding-bottom: 0.5rem;
 }
 .overview-img-container {
   float: right;
@@ -29,18 +37,47 @@
   right: 0;
   top: 0;
 }
+.video-wrapper {
+  position: relative;
+  padding-top: 56.25% 
 
+  /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-p {
+  position: absolute;
+  top: 3rem;
+  padding: 2rem 4rem 3rem 4rem ;
+  
+  
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .react-player {
+    position: absolute;
+    top: 4.8rem;
+    left: 0;
+    
+ 
+  }
+
+}
 .about-project-container {
+  padding: 3rem 0rem 0rem 0rem;
   width: 100%;
 }
 
 .about-project {
+
   margin: 0 auto;
   width: 50%;
 }
 
 .project-pictures-bg{
-    padding: 6em 3em 5em 3em;
+    padding: 3rem 4rem 3rem 4rem;
     /* border: red solid 5px; */
    
 }
@@ -49,7 +86,9 @@
     
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30ch, 2fr));
-  grid-gap: 2rem;
+  /* grid-gap: 5rem; */
+  row-gap:2rem ;
+  column-gap:4rem ;
   max-width: 100%;
   /* width: 128ch; */
   /* border: red solid 5px; */
@@ -60,7 +99,8 @@
 .img-frame {
 
 width: 100%;
-  
+
+background-color: rgb(255, 255, 255);
 
 }
 
@@ -69,13 +109,13 @@ width: 100%;
     width: 100%;
     height: max(20rem, 30vh);
     max-height: max(rem, 35vh);
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
 .related-projects-container {
   
-  padding: 0em 3em 1em 3em;
+  padding: 3rem 4rem 3rem 4rem;
 
 }
 

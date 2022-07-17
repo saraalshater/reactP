@@ -17,7 +17,7 @@ function RightNav({ open }) {
     <nav className="nav">
     <div>
       <Link to="/" className="logo">
-        <img src={logoSmall} alt="logo"/>
+        <img src={logoSmall} alt="logo" style={{width:"200px"}}/>
       </Link>
     </div>
 
