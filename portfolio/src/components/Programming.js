@@ -1,5 +1,5 @@
 import ProjectView from "./ProjectView";
-import {useState} from "react";
+import { useEffect,useState} from "react";
 import data from "./Data";
 import BurgerWeb from "./BurgerWeb";
 import Card from "./Card";
@@ -12,7 +12,9 @@ function Programming(params) {
 
     const uniqueIds = [];
   
-  
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
     const uniqueCat = cardItem.filter(element => {
       const isDuplicate = uniqueIds.includes(element.category);
   

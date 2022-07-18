@@ -1,5 +1,5 @@
 import "./App.css";
-
+import {useEffect} from 'react'
 import { Routes, Route } from "react-router-dom";
 import UxUi from "./components/UxUi";
 import Programming from "./components/Programming";

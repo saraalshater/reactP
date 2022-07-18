@@ -1,17 +1,128 @@
 .contact-container{
-    padding: 3rem 4rem 3rem 4rem;
+    padding: 5rem 4rem 2rem 4rem;
+    display: flex;
+   
+    
  
 }
 
+.mail-con{
+    font-size: 14px;
+    font-weight: 600;
+}
 
+.contacth1{
+    margin-bottom:2rem ;
+    color: #32302D;
+}
+label{
+    font-weight: 700;
+    font-size: 14px;
+    color: #32302D;
+    
+}
+
+input{
+
+    padding: 10px ;
+    width: 100%;
+    border: #32302D 2px solid;
+    border-radius: 10px;
+    margin-bottom:1.5rem ;
+ margin-top:0.5rem ;
+}
+textarea{
+    width: 100%;
+    padding: 3rem 0rem ;
+    border: #32302D 2px solid;
+    border-radius: 8px;
+    box-decoration-break: none;
+    resize: none;
+    margin-top:0.5rem ;
+    margin-bottom:1.5rem ;
+
+}
+.send-btn{
+    border: #32302D 2px solid;
+}
 
 .contact-box{
-    background-image: url("../assets/dot-cut.png");
-    border-radius: 10px;
-    background-color: #CEE7CD;
-    border: solid 3px #32302D;
+   
+    
+    width: 40%;
+   
+    
 }
 
-.contact-content{
-    padding: 4rem;
+.conactill{
+    
+    position: absolute;
+    width: 50%;
+    right:0;
+    padding-top: 9rem ;
+    padding-left: 3rem ;
 }
+
+.icon-container{
+    width: 70%;
+    margin: 0 auto;
+text-align: center;
+}
+
+.icon-flex{
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+justify-content: center;
+padding: 1rem 0rem 5rem 0rem;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .contact-container{
+        padding: 5rem 2rem 20rem 2rem;
+        display:flex;
+     
+    }
+
+
+    .contact-box{
+   
+  flex-direction: column;
+          width: 100%;
+       
+        
+    }
+
+    .conactill{
+     
+        flex-direction: column;
+        width: 100%;
+     
+        padding-top: 34rem ;
+    
+    }
+
+
+  
+    .icon-container{
+        padding-top: 4rem;
+        }
+    
+ 
+   
+}
+
+
+@media only screen and (max-width: 576px){
+
+
+
+    .icon-container{
+    padding-top: 0rem;
+    }
+}
+
+
+
+

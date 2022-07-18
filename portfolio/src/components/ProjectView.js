@@ -6,13 +6,15 @@ import sky from "../assets/sky.png";
 import Card from "./Card";
 import { useParams } from "react-router-dom"
 import data, { uxData } from "./Data";
-import { useState } from "react";
+import { useEffect,useState } from "react";
 import ContactBtn from "./ContactBtn";
 // import examplefoto from "../assets/examplefoto.jpg";
 function ProjectView() {
   const [cardItem, setCardItem] = useState(data);
   const { id } = useParams()
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const uniqueIds = [];
 const selectedPrject = data.filter(item => item.id == id); 

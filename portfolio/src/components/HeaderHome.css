@@ -59,14 +59,14 @@ nav ul {
 }
 
 nav a {
-  color: #f9f9f9;
+  color:#FCFCFC;
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
 
-  color: #f9f9f9;
+ 
 
  
 
@@ -74,8 +74,8 @@ nav a {
 }
 
 nav li:hover {
-  color: #f9f9f9;
-  border-bottom: solid #f9f9f9 3px;
+  color: #FCFCFC;
+  border-bottom: solid #FCFCFC 3px;
 }
 
 

@@ -6,7 +6,7 @@ body {
   font-family: "Raleway";
   font-style: normal;
 }
-.contactIcon{
+/* .contactIcon{
 
   z-index: 1;
   position: fixed;
@@ -46,7 +46,7 @@ font-size: 20px;
 font-family: "Raleway";
 font-weight: 600;
 
-}
+} */
 
 
 
@@ -159,7 +159,7 @@ button:hover {
     background-color: #cee7cd;
   }
   .name-card {
-    padding: 2rem 3rem 3rem 3rem;
+    padding: 2rem 2rem 3rem 2rem;
   }
   .name-card,
   h1 {
@@ -198,7 +198,7 @@ button:hover {
     /* align-items: flex-start; */
   
   
-    padding: 7.5rem 3rem 0rem 3rem;
+    padding: 7.5rem 2rem 0rem 2rem;
   }
 
   .lastest-projects-container {

@@ -11,14 +11,16 @@ import examplefoto from "../assets/examplefoto.jpg"
 import contactIconSmall from "../assets/contactIconSmall.png"
 
 import data from "./Data";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ContactBtn from "./ContactBtn";
 
 function Home() {
   const [cardItem, setMenuItem] = useState(data);
 
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const uniqueIds = [];
 
@@ -52,7 +54,9 @@ function Home() {
               UX/UI Designer and Web Developer that has multiple interests, and
               passion for design and arts.
             </p>
+            <Link to="/contact">
             <button >Contact me</button>
+            </Link>
           </div>
         </div>
 

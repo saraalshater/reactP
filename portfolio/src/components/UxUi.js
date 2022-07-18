@@ -11,7 +11,7 @@ import "./UxUi.css";
 import RightNav from "./RightNav";
 import uxillus from "../assets/manandgirl1.png";
 import uxillusAlign from "../assets/uxillusAlign.png";
-import { Fragment, useState } from "react";
+import { Fragment, useState, useEffect } from "react";
 import ContactBtn from "./ContactBtn";
 import ProjectView from "./ProjectView";
 
@@ -20,7 +20,9 @@ function UxUi(params) {
 
   const uniqueIds = [];
 
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const uniqueCat = cardItem.filter(element => {
     const isDuplicate = uniqueIds.includes(element.category);
 

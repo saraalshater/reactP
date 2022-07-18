@@ -2,7 +2,7 @@ import data from "./Data";
 
 import "./Card.css";
 import Button from "./Button";
-import { useState } from "react";
+import { useEffect,useState } from "react";
 import "./Button.css";
 import Card from "./Card";
 import watering from "../assets/wateing-png.png";
@@ -26,7 +26,9 @@ function Arts() {
   const uniqueIds = [];
 
 
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   const filter = (button) => {
     if (button === "All"  ) {
@@ -60,13 +62,13 @@ function Arts() {
     <>
       <BurgerWeb />
       <ContactBtn/> 
-      <div className="illstration-container">
-        <div className="illstration-caption">
-          <h1>Arts</h1>
-          <p>lorem</p>
+      <div className="art-illstration-container">
+        <div className="art-illstration-caption">
+          <h1>Art is standing with one hand extended into the universe and one hand extended into the world, and letting ourselves be a conduit for passing energy.</h1>
+          <p></p>
         </div>
 
-        <div className="uxDrawing">
+        <div className="artDrawing">
           <img  className="pic1" src={watering} alt="." style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
              <img className="pic2"src={watering} alt="l" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
         </div>

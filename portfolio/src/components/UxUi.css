@@ -6,7 +6,7 @@
     width: 100%;
     height: 40vh;
     overflow: hidden;
-    padding: 2rem 4rem 1rem 4rem;
+    padding: 0rem 2rem 0rem 4rem;
     /* border:red solid 3px; */
 }
 .illstration-caption{
@@ -32,11 +32,10 @@
   width: 20%;
   height: 100%;
   position: relative;
-  /* border:red solid 3px; */
-  right: 0;
-  top: 0;
-   /* padding-left: 4rem; */
-   padding-bottom: 2rem;
+/* border: 2px red solid; */
+margin-right: 1rem;
+  
+  
 }
 
 
@@ -110,16 +109,16 @@
       width: 65%;
       height: 100%;
         padding: 0.7em 2em 2em 3em;
-        /* border:red solid 3px; */
+      
     
     }
 
     .uxDrawing{
       float: right;
-      width: 35%;
+      width: 30%;
       height: 100%;
       position: relative;
-      /* border:red solid 3px; */
+   
       right: 0;
       top: 0;
     }
@@ -133,8 +132,9 @@
     .illstration-container{
         position: relative;
         top: 4.8rem;
-        padding: 2em 1.4em 3em 1em;
-        background-image: url("../assets/dots-background.png");
+        height: 50vh;
+        padding: 0.5rem 1rem 09rem 1rem;
+        background-image: url("../assets/dot-cut.png");
          background-color: #FCFCFC;
        
         
@@ -145,8 +145,8 @@
         float: none;
       
         width: 100%;
-        height: 100%;
-          padding: 0.7em 1em 2em 2em;
+        height: 60%;
+          padding: 0rem 1rem 0rem 1rem;
           /* border:red solid 3px; */
       
       }
@@ -160,8 +160,9 @@
       .uxDrawing{
        margin: 0 auto;
         float: none;
-        width: 70%;
-        height: 50%;
+        width: 100%;
+        height: 120%;
+          /* border:red solid 3px; */
         position: relative;
        
         right: 0;
@@ -179,5 +180,11 @@
         font-size: 16px;
       }
 
+
+      .ux-projects-container {
+  
+        padding: 1rem 2rem 1rem 2rem;
+      
+      }
 
   }
