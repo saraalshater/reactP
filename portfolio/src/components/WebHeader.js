@@ -23,7 +23,7 @@ function WebHeader() {
       <header className={header}>
         <div>
           <Link to="/" className="logoBlack">
-            <img src={logoBlack} alt="logoblack" />
+            <img src={logoBlack} alt="logoblack" style={{width:"180px"}}/>
           </Link>
         </div>
         <div>

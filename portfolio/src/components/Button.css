@@ -1,8 +1,8 @@
 
 
 .fltr-container{
-  margin-top: 8em;
-padding: 1em;
+  margin-top: 3rem;
+padding: 2rem 4rem 0rem 4rem;
 width: 100%;
 
 text-align: center;
@@ -10,7 +10,7 @@ text-align: center;
 
 
 .fltr-btn{
-   
+  font-size: 18px;
     float: none;
     background: #FCFCFC;
     color :#818181;
@@ -30,4 +30,25 @@ text-align: center;
 .fltr-btn:focus {
     background: #E8C559;
     color: #32302D;
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .fltr-container{
+      margin-top: 4rem;
+    padding: 2rem 3rem 0rem 3rem;
+    width: 100%;
+    
+    text-align: center;
+    }
+
+
+    .fltr-btn{
+      font-size: 14px;
+        float: none;
+        background: #FCFCFC;
+        color :#818181;
+        border: none;
+    }
+
   }

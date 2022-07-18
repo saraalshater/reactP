@@ -1,14 +1,67 @@
+.about-illstration-container{
+    background-image: url("../assets/dot-cut.png");
+    background-color: #FCFCFC;
+    position: relative;
+    top: 6.3rem;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    padding: 2rem 4rem 1rem 4rem;
+}
+
+
 .qoute{
     font-style: italic;
 }
+
+
+.Edu-Cer-container{
+    padding: 3rem 4rem 0rem 4rem;
+
+}
+
+.Edu-Cer-container h3{
+    font-size: 14pt;
+}
+
+
+.Edu-Cer-container p{
+    font-size: 12pt;
+}
+
+
+
 .edu-contant{
     display: flex;
+  
+
 }
 
 
 .edu-contant> div {
-    background-color: #f1f1f1;
+
     margin: 1px;
-    padding: 20px;
+
     
   }
+
+  @media only screen and (max-width: 700px) {
+    .about-illstration-container{
+        top: 4.8rem; 
+    }
+    .Edu-Cer-container{
+        padding: 2rem 2rem 0rem 2rem;
+    
+    }
+
+    .Edu-Cer-container h3{
+        font-size: 12pt;
+    }
+
+    .Edu-Cer-container p{
+        font-size: 10pt;
+    }
+
+  }
+
+

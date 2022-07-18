@@ -1,10 +1,11 @@
 .card-container {
   background-color:  #FCFCFC;
-  
- 
+  max-width: 42vw;
+
   /* padding-bottom: 1rem; */
 
 }
+
 
 .card-img {
   
@@ -12,28 +13,29 @@
   object-fit: cover;
  height: max(17rem, 30vh);
   max-height: max(rem, 35vh);
-  aspect-ratio: 4/3;
+ 
 
 
 }
 
 
 h2 {
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .category {
    color: #818181;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
+ margin-top:-10px;
 }
 
 .card-btn {
-  margin-top: 2em;
+  margin-top: 7rem;
   background: #3e8f62;
   border-radius: 5px;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Raleway";
 
   border: none;
@@ -50,7 +52,25 @@ h2 {
   border-bottom-right-radius: 5px;
 }
 
+
+@media only screen and (max-width: 1000px){
+  .card-container {
+    background-color:  #FCFCFC;
+    
+   max-width: 100%;
+    /* padding-bottom: 1rem; */
+  
+  }
+}
+
 @media only screen and (max-width: 700px) {
+  .card-container {
+    background-color:  #FCFCFC;
+    
+   max-width: 100%;
+    /* padding-bottom: 1rem; */
+  
+  }
   h2 {
     color:#32302d;
     font-size: 18px;

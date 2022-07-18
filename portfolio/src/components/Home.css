@@ -6,7 +6,7 @@ body {
   font-family: "Raleway";
   font-style: normal;
 }
-.contactIcon{
+/* .contactIcon{
 
   z-index: 1;
   position: fixed;
@@ -46,7 +46,7 @@ font-size: 20px;
 font-family: "Raleway";
 font-weight: 600;
 
-}
+} */
 
 
 
@@ -76,33 +76,35 @@ font-weight: 600;
   background-image: url("../assets/dot-cut.png");
   background-color: #cee7cd;
   position: relative;
-  top: 12rem;
+  top: 10.8rem;
 }
 
 .name-card {
-  padding: 0.7em 2em 2em 2em;
+  padding: 2rem 4rem 3rem 4rem;
 }
 
 .name-card,
 h1 {
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .name-card,
 p {
-  font-size: 24px;
+  font-size: 20px;
+ 
 }
 
 button {
   float: right;
   background: #e8c559;
   /* Primary/Black */
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Raleway";
   font-weight: 600;
-  border: 3px solid #32302d;
+  border: 3px solid #322d2d;
   border-radius: 10px;
   padding: 12px 24px;
+  color: #0a0a0a;
 }
 
 button:hover {
@@ -121,28 +123,28 @@ button:hover {
 }
 .lastest-projects-container {
   
-  padding: 15em 3em 1em 3em;
+  padding: 14rem 4rem 7rem 4rem;
 
 }
 
 .lastest-projects-contants h1 {
-font-size: 30px;
- 
+
+  font-size: 24px;
 }
 .Cards-container {
   position: relative;
   list-style: none;
   padding: 0;
-  margin: 2em 0em 7em;
+  margin: 2rem 0rem 0rem;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30ch, 2fr));
-  grid-gap: 8rem;
+  grid-gap: 5rem;
   max-width: 100%;
-  /* width: 127ch; */
+ 
   
-  margin-left: 0rem;
-  margin-right: 2rem;
+
+
 
 }
 
@@ -150,13 +152,15 @@ font-size: 30px;
 
 @media only screen and (max-width: 700px) {
   .container {
-    position: relative;
+    
     top: 4.8rem;
 
     background-image: url("../assets/dots-background.png");
     background-color: #cee7cd;
   }
-
+  .name-card {
+    padding: 2rem 2rem 3rem 2rem;
+  }
   .name-card,
   h1 {
     font-size: 20px;
@@ -193,13 +197,13 @@ font-size: 30px;
     /* justify-content: center; */
     /* align-items: flex-start; */
   
-    position: absolute;
-    padding: 7em 2em 0em 2em;
+  
+    padding: 7.5rem 2rem 0rem 2rem;
   }
 
   .lastest-projects-container {
     
-    padding: 0.2em 0em 0em 0em;
+    padding: 0rem 0rem 0rem 0rem;
   
   }
   .Cards-container {
@@ -210,7 +214,7 @@ font-size: 30px;
   
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30ch, 2fr));
-    grid-gap: 7rem;
+    grid-gap: 5rem;
     max-width: 100%;
     width: 70ch;
     

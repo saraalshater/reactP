@@ -1,100 +1,743 @@
+import foto1 from "../assets/1.jpg"
+import foto2 from "../assets/2.jpg"
+import foto3 from "../assets/3.jpg"
+import foto4 from "../assets/4.jpg"
+import foto5 from "../assets/5.jpg"
+import foto6 from "../assets/6.jpg"
+import foto7 from "../assets/7.jpg"
+import foto8 from "../assets/8.jpg"
+import foto9 from "../assets/9.jpg"
+import foto10 from "../assets/10.png"
+import foto11 from "../assets/11.jpg"
+import foto12 from "../assets/12.jpg"
+import foto13 from "../assets/13.jpg"
+import foto14 from "../assets/14.jpg"
+import foto15 from "../assets/15.jpg"
+import foto16 from "../assets/16.png"
+import foto17 from "../assets/17.jpg"
+import foto18 from "../assets/18.png"
+import foto19 from "../assets/19.jpg"
+import foto20 from "../assets/20.jpg"
+import foto21 from "../assets/21.jpg"
+import foto22 from "../assets/22.jpg"
+import foto23 from "../assets/23.png"
+import foto24 from "../assets/24.jpg"
+import foto25 from "../assets/25.jpg"
+import foto26 from "../assets/26.jpg"
+import foto27 from "../assets/27.png"
+import foto28 from "../assets/28.jpg"
+import foto29 from "../assets/29.jpg"
+import foto30 from "../assets/30.jpg"
+import foto31 from "../assets/31.jpg"
+import foto34 from "../assets/34.jpg"
+import foto35 from "../assets/35.jpg"
+import foto36 from "../assets/36.jpg"
+import foto37 from "../assets/37.jpg"
+import foto38 from "../assets/38.jpg"
+import foto39 from "../assets/39.jpg"
+import foto40 from "../assets/40.png"
+import foto41 from "../assets/41.jpg"
+import foto42 from "../assets/42.jpg"
+import foto43 from "../assets/43.jpg"
+import foto44 from "../assets/44.jpg"
+import foto45 from "../assets/45.jpg"
+import foto46 from "../assets/46.jpg"
+import foto47 from "../assets/47.jpg"
+import foto48 from "../assets/48.png"
+import foto49 from "../assets/49.png"
+import foto50 from "../assets/50.png"
+import foto51 from "../assets/51.png"
+import foto52 from "../assets/52.png"
+import foto53 from "../assets/53.png"
+import collage1 from "../assets/collage1.png"
+import collage2 from "../assets/collage2.png"
+import collage3 from "../assets/collage3.png"
+import collage4 from "../assets/collage4.png"
+import collage5 from "../assets/collage5.png"
+import collage6 from "../assets/collage6.png"
+import collage7 from "../assets/collage7.png"
+import collage8 from "../assets/collage8.png"
+import collage9 from "../assets/collage9.png"
+
+import cover from "../assets/cover.png"
+import film1 from "../assets/film1.png"
+import film2 from "../assets/film2.png"
+import film3 from "../assets/film3.png"
+
 const data = [
   {
     category: "Film photography",
     id: 1,
       
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "Tips and tricks to write good code",
+       
         pics: [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
+          foto1,
         
 
         ],
         subcategory: "arts",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
-      
+   
 
   },
   {
     category: "Film photography",
     id: 2,
       
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "no duplication",
+       
         pics: [
          
-          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
+          foto2,
           
 
         ],
         subcategory: "arts",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+      
+  },
+  {
+    category: "Film photography",
+    id: 3,
+      
+        pics: [
+          foto3,
+        ],
+        subcategory: "arts",
+       
+
+  },
+  {
+    category: "Film photography",
+    id: 4,
+      
+        pics: [
+          foto4,
+        ],
+        subcategory: "arts",
       
 
   },
   {
     category: "Film photography",
-    id: 3,
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "im film without duplicationnn",
+    id: 5,
+      
         pics: [
-          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
+          foto5,
         ],
         subcategory: "arts",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+       
+
+  },
+  {
+    category: "Film photography",
+    id: 6,
+      
+        pics: [
+          foto6,
+        ],
+        subcategory: "arts",
+       
+
+  },
+  {
+    category: "Film photography",
+    id: 7,
+       
+        pics: [
+          foto7,
+        ],
+        subcategory: "arts",
       
 
   },
   {
-    category: "Collages",
-    id: 4,
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "How to use Search Engine Optimisation",
+    category: "Film photography",
+    id: 8,
+      
         pics: [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-          "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-          "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
+          foto8,
+        ],
+        subcategory: "arts",
+       
 
+  },
+  {
+    category: "Film photography",
+    id: 9,
+     
+        pics: [
+          foto9,
+        ],
+        subcategory: "arts",
+      
+  },
+  {
+    category: "Film photography",
+    id: 10,
+      
+        pics: [
+          foto10,
+        ],
+        subcategory: "arts",
+       
+  },
+  {
+    category: "Film photography",
+    id: 11,
+       
+        pics: [
+          foto11,
+        ],
+        subcategory: "arts",
+      
+
+  },
+  {
+    category: "Film photography",
+    id: 12,
+    
+        pics: [
+          foto12,
+        ],
+        subcategory: "arts",
+     
+
+  },
+  {
+    category: "Film photography",
+    id: 13,
+    
+        pics: [
+          foto13,
+        ],
+        subcategory: "arts",
+      
+
+  },
+  {
+    category: "Film photography",
+    id: 14,
+    
+        pics: [
+          foto14,
+        ],
+        subcategory: "arts",
+    
+  },
+  {
+    category: "Film photography",
+    id: 15,
+    
+        pics: [
+          foto15,
+        ],
+        subcategory: "arts",
+      
+  },
+  {
+    category: "Film photography",
+    id: 16,
+      
+        pics: [
+          foto16,
+        ],
+        subcategory: "arts",
+      
+  },
+  {
+    category: "Film photography",
+    id: 17,
+     
+        pics: [
+          foto17,
+        ],
+        subcategory: "arts",
+    
+  },
+  {
+    category: "Film photography",
+    id: 18,
+    
+        pics: [
+          foto18,
+        ],
+        subcategory: "arts",
+      
+
+  },
+  {
+    category: "Film photography",
+    id: 19,
+  
+        pics: [
+          foto19,
+        ],
+        subcategory: "arts",
+    
+  },
+  {
+    category: "Film photography",
+    id: 20,
+     
+        pics: [
+          foto20,
+        ],
+        subcategory: "arts",
+    
+  },
+  {
+    category: "Film photography",
+    id: 21,
+     
+        pics: [
+          foto21,
+        ],
+        subcategory: "arts",
+    
+
+  },
+  {
+    category: "Film photography",
+    id: 22,
+     
+        pics: [
+          foto22,
+        ],
+        subcategory: "arts",
+    
+
+  },
+  {
+    category: "Film photography",
+    id: 23,
+      
+        pics: [
+          foto23,
+        ],
+        subcategory: "arts",
+      
+
+  },
+  {
+    category: "Film photography",
+    id: 24,
+      
+        pics: [
+          foto24,
+        ],
+        subcategory: "arts",
+     
+
+  },
+  {
+    category: "Film photography",
+    id: 25,
+      
+        pics: [
+          foto25,
+        ],
+        subcategory: "arts",
+     
+
+  },
+  {
+    category: "Film photography",
+    id: 26,
+     
+        pics: [
+          foto26,
+        ],
+        subcategory: "arts",
+     
+
+  },
+  {
+    category: "Film photography",
+    id: 27,
+     
+        pics: [
+          foto27,
+        ],
+        subcategory: "arts",
+    
+
+  },
+  {
+    category: "Film photography",
+    id: 28,
+      
+        pics: [
+          foto28,
+        ],
+        subcategory: "arts",
+   
+
+  },
+  {
+    category: "Film photography",
+    id: 29,
+    
+        pics: [
+          foto29,
+        ],
+        subcategory: "arts",
+    
+
+  },
+  {
+    category: "Film photography",
+    id: 30,
+   
+        pics: [
+          foto30,
+        ],
+        subcategory: "arts",
+     
+
+  },
+  {
+    category: "Film photography",
+    id: 31,
+     
+        pics: [
+          foto31,
+        ],
+        subcategory: "arts",
+   
+
+  },
+  {
+    category: "Film photography",
+    id: 34,
+
+        pics: [
+          foto34,
+        ],
+        subcategory: "arts",
+      
+
+  },
+  {
+    category: "Film photography",
+    id: 35,
+     
+        pics: [
+          foto35,
+        ],
+        subcategory: "arts",
+     
+
+  },
+  {
+    category: "Film photography",
+    id: 36,
+    
+        pics: [
+          foto36,
+        ],
+        subcategory: "arts",
+     
+
+  },
+  {
+    category: "Film photography",
+    id: 37,
+   
+        pics: [
+          foto37,
+        ],
+        subcategory: "arts",
+   
+
+  },
+  {
+    category: "Film photography",
+    id: 38,
+    
+        pics: [
+          foto38,
+        ],
+        subcategory: "arts",
+   
+
+  },
+  {
+    category: "Film photography",
+    id: 39,
+     
+        pics: [
+          foto39,
+        ],
+        subcategory: "arts",
+     
+
+  },
+  {
+    category: "Film photography",
+    id: 40,
+      
+        pics: [
+          foto40,
+        ],
+        subcategory: "arts",
+    
+
+  },
+  {
+    category: "Film photography",
+    id: 41,
+     
+        pics: [
+          foto41,
+        ],
+        subcategory: "arts",
+      
+
+  },
+  {
+    category: "Film photography",
+    id: 42,
+      
+        pics: [
+          foto42,
+        ],
+        subcategory: "arts",
+     
+
+  },
+  {
+    category: "Film photography",
+    id: 43,
+    
+        pics: [
+          foto43,
+        ],
+        subcategory: "arts",
+     
+  },
+  {
+    category: "Film photography",
+    id: 44,
+      
+        pics: [
+          foto44,
+        ],
+        subcategory: "arts",
+  
+
+  },
+  {
+    category: "Film photography",
+    id: 45,
+     
+        pics: [
+          foto45,
+        ],
+        subcategory: "arts",
+    
+
+  },
+  {
+    category: "Film photography",
+    id: 46,
+     
+        pics: [
+          foto46,
+        ],
+        subcategory: "arts",
+  
+  },
+  {
+    category: "Film photography",
+    id: 47,
+    
+        pics: [
+          foto47,
+        ],
+        subcategory: "arts",
+      
+  },
+  {
+    category: "Film photography",
+    id: 48,
+   
+        pics: [
+          foto48,
+        ],
+        subcategory: "arts",
+   
+
+  },
+  {
+    category: "Film photography",
+    id: 49,
+      
+        pics: [
+          foto49,
+        ],
+        subcategory: "arts",
+    
+
+  },
+  {
+    category: "Film photography",
+    id: 50,
+    
+        pics: [
+          foto50,
+        ],
+        subcategory: "arts",
+ 
+
+  },
+  {
+    category: "Film photography",
+    id: 51,
+     
+        pics: [
+          foto51,
+        ],
+        subcategory: "arts",
+     
+
+  },
+  {
+    category: "Film photography",
+    id: 52,
+   
+        pics: [
+          foto52,
+        ],
+        subcategory: "arts",
+      
+
+  },
+  {
+    category: "Film photography",
+    id: 53,
+   
+        pics: [
+          foto53,
+        ],
+        subcategory: "arts",
+   
+  },
+
+
+  {
+    category: "Collages",
+    id: 54,
+     
+        pics: [
+         
+          collage1
 
         ],
         subcategory: "arts",
         
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
    
   },
   {
     category: "Collages",
-    id: 5,
+    id: 55,
 
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "collages against duplicate",
         pics: [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-          "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-          "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
-
+          collage2
 
         ],
         subcategory: "arts",
       
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+    
+  },
+  {
+    category: "Collages",
+    id: 56,
+
+        pics: [
+          collage3
+
+        ],
+        subcategory: "arts",
+      
+    
+  },
+  {
+    category: "Collages",
+    id: 57,
+
+    
+        pics: [
+          collage4
+
+        ],
+        subcategory: "arts",
 
   },
   {
+    category: "Collages",
+    id: 58,
+
+    
+        pics: [
+          collage5
+
+        ],
+        subcategory: "arts",
+      
+    
+  },
+  {
+    category: "Collages",
+    id: 59,
+
+        pics: [
+          collage6
+
+        ],
+        subcategory: "arts",
+      
+     
+  },
+  {
+    category: "Collages",
+    id: 60,
+
+     
+        pics: [
+          collage7
+
+        ],
+        subcategory: "arts",
+      
+  },
+  {
+    category: "Collages",
+    id: 61,
+
+     
+        pics: [
+          collage8
+
+        ],
+        subcategory: "arts",
+      
+      
+  },
+  {
+    category: "Collages",
+    id: 62,
+
+     
+        pics: [
+          collage9
+
+        ],
+        subcategory: "arts",
+    
+  },
+
+  {
     category: "Sketches",
-    id: 6,
+    id: 63,
   
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "How to transition from Unreal Engine to Unity in simple steps",
         subcategory: "arts",
         pics: [
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
@@ -105,16 +748,12 @@ const data = [
 
 
         ],
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
-  
+     
   },
   {
-    category: "Filmmaking",
-    id: 7,
-  
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "I think Fortnite is dead",
+    category: "Sketches",
+ id: 64,
+       
         pics: [
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
           "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
@@ -122,6 +761,23 @@ const data = [
           "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
           "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
 
+
+        ],
+        subcategory: "arts",
+       
+     
+  },
+  {
+    category: "Filmmaking",
+    id: 65,
+  
+        img:  cover,
+        title: "Out Of Silance",
+        video: "https://www.youtube.com/watch?v=RmiI72-iSvM",
+        pics: [
+         film1,
+         film2,
+         film3,
 
         ],
   
@@ -130,9 +786,11 @@ const data = [
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
    
   },
+ 
+
   {
-    category: "Sketches",
- id: 8,
+    category: "Multimedia",
+ id: 66,
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "Tips and tricks to write good code",
         pics: [
@@ -151,11 +809,31 @@ const data = [
   
   },
   {
+    category: "Multimedia",
+ id: 67,
+        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
+        title: "mulit2",
+        pics: [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
+          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
+          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
+          "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
+          "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
+
+
+        ],
+        subcategory: "arts",
+       
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+  
+  },
+  {
     category: "Ux",
-    id: 9,
+    id: 68,
 
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "UXXXXXXXXX",
+        title: "UX1",
         pics: [
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
           "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
@@ -173,10 +851,10 @@ const data = [
   },
   {
     category: "Ux",
-    id: 10,
+    id: 69,
   
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "UXXXXXXXXX",
+        title: "Ux2",
         pics: [
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
           "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
@@ -193,10 +871,10 @@ const data = [
   },
   {
     category: "Ux",
-    id: 11,
+    id: 70,
  
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "UXXXXXXXXX",
+        title: "UX3",
         pics: [
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
           "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
@@ -214,7 +892,7 @@ const data = [
   },
   {
     category: "Programming",
-    id: 12,
+    id: 71,
  
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "code 1",
@@ -235,7 +913,7 @@ const data = [
   },
   {
     category: "Programming",
-    id: 13,
+    id: 72,
  
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "code 2",
@@ -256,7 +934,7 @@ const data = [
   },
   {
     category: "Programming",
-    id: 14,
+    id: 73,
  
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "code 3",
@@ -277,7 +955,7 @@ const data = [
   },
   {
     category: "Programming",
-    id: 15,
+    id: 74,
  
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "code 4",
