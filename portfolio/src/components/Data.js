@@ -64,6 +64,17 @@ import film1 from "../assets/film1.png"
 import film2 from "../assets/film2.png"
 import film3 from "../assets/film3.png"
 
+
+
+import sktsh1 from "../assets/sktch0-0.jpeg"
+import sktsh2 from "../assets/sktch0-1.png"
+import sktsh3 from "../assets/sktch0-2.png"
+import sktsh4 from "../assets/sktch0-3.png"
+import sktsh5 from "../assets/sktch0-4.png"
+import sktsh6 from "../assets/sktch0-5.png"
+import sktsh7 from "../assets/sktch0-6.png" 
+
+
 const data = [
   {
     category: "Film photography",
@@ -740,11 +751,7 @@ const data = [
   
         subcategory: "arts",
         pics: [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-          "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-          "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
+         sktsh1
 
 
         ],
@@ -755,11 +762,74 @@ const data = [
  id: 64,
        
         pics: [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-          "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-          "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
+          sktsh2
+
+
+        ],
+        subcategory: "arts",
+       
+     
+  },
+  {
+    category: "Sketches",
+ id: 65,
+       
+        pics: [
+          sktsh3
+
+
+        ],
+        subcategory: "arts",
+       
+     
+  },
+  {
+    category: "Sketches",
+ id: 66,
+       
+        pics: [
+          sktsh4
+
+
+        ],
+        subcategory: "arts",
+       
+     
+  },
+
+
+  {
+    category: "Sketches",
+ id: 68,
+       
+        pics: [
+          sktsh5
+
+
+        ],
+        subcategory: "arts",
+       
+     
+  },
+  {
+    category: "Sketches",
+ id: 69,
+       
+        pics: [
+          sktsh6
+
+
+        ],
+        subcategory: "arts",
+       
+     
+  },
+  {
+    category: "Sketches",
+ id: 70,
+       
+        pics: [
+          sktsh7
 
 
         ],
@@ -769,7 +839,7 @@ const data = [
   },
   {
     category: "Filmmaking",
-    id: 65,
+    id: 71,
   
         img:  cover,
         title: "Out Of Silance",
@@ -790,7 +860,7 @@ const data = [
 
   {
     category: "Multimedia",
- id: 66,
+ id: 72,
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "Tips and tricks to write good code",
         pics: [
@@ -810,7 +880,7 @@ const data = [
   },
   {
     category: "Multimedia",
- id: 67,
+ id: 73,
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "mulit2",
         pics: [
@@ -830,7 +900,7 @@ const data = [
   },
   {
     category: "Ux",
-    id: 68,
+    id: 74,
 
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "UX1",
@@ -851,7 +921,7 @@ const data = [
   },
   {
     category: "Ux",
-    id: 69,
+    id: 75,
   
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "Ux2",
@@ -871,7 +941,7 @@ const data = [
   },
   {
     category: "Ux",
-    id: 70,
+    id: 76,
  
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "UX3",
@@ -892,7 +962,7 @@ const data = [
   },
   {
     category: "Programming",
-    id: 71,
+    id: 77,
  
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "code 1",
@@ -913,7 +983,7 @@ const data = [
   },
   {
     category: "Programming",
-    id: 72,
+    id: 78,
  
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "code 2",
@@ -934,7 +1004,7 @@ const data = [
   },
   {
     category: "Programming",
-    id: 73,
+    id: 79,
  
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "code 3",
@@ -955,7 +1025,7 @@ const data = [
   },
   {
     category: "Programming",
-    id: 74,
+    id: 80,
  
         img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
         title: "code 4",

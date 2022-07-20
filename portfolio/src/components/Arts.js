@@ -69,8 +69,8 @@ function Arts() {
         </div>
 
         <div className="artDrawing">
-          <img  className="pic1" src={watering} alt="." style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
-             <img className="pic2"src={watering} alt="l" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
+          <img  className="pic1" src={watering} alt="hand watering a plant" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
+             <img className="pic2"src={watering} alt="hand watering a plant" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
         </div>
       </div>
 

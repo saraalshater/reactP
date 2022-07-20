@@ -33,7 +33,7 @@ input{
 }
 textarea{
     width: 100%;
-    padding: 3rem 0rem ;
+    padding: 3rem 2rem ;
     border: #32302D 2px solid;
     border-radius: 8px;
     box-decoration-break: none;
