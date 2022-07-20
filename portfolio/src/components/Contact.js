@@ -13,9 +13,9 @@ function Contact() {
   const [sender_subject, set_sender_subject] = useState("");
   const [message, set_message] = useState("");
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0)
-  // }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
 
 
@@ -53,6 +53,9 @@ function Contact() {
     set_sender_subject("");
     set_message("");
   };
+
+
+
   return (
     <>
       <BurgerWeb />

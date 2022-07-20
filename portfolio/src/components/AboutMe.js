@@ -2,7 +2,7 @@ import BurgerWeb from "./BurgerWeb";
 import Contact from "./Contact";
 import {useEffect ,useRef } from "react";
 import "./AboutMe.css";
-import foto from "../assets/foto.jpg";
+import foto from "../assets/handspuzzle2.png";
 import uniJoLogo from "../assets/University_of_Jordan_Logo_2.png";
 import isiLogo from "../assets/isi_logo_2.png";
 import codeLogo from "../assets/code_fellows_logo.png";
@@ -34,6 +34,14 @@ function AboutMe() {
           </h1>
           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Louise Bourgeois</p>
         </div>
+
+
+
+        
+        {/* <div className="artDrawing">
+          <img  className="pic1" src={foto} alt="hand watering a plant" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
+             <img className="pic2"src={foto} alt="hand watering a plant" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
+        </div> */}
       </div>
 
       <div className="about-project-container">
@@ -42,7 +50,7 @@ function AboutMe() {
           <img
             src={foto}
             alt="img"
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            style={{ width: "100%", height: "100%", objectFit: "cover", marginTop:"3rem" }}
           />
           <p>
             {" "}

@@ -9,8 +9,8 @@ import "./BurgerWeb.css";
 import BurgerWeb from "./BurgerWeb";
 import "./UxUi.css";
 import RightNav from "./RightNav";
-import uxillus from "../assets/manandgirl1.png";
-import uxillusAlign from "../assets/uxillusAlign.png";
+import uxillus from "../assets/hands-holding-phone.png";
+import uxillusAlign from "../assets/hands-phone-2.png";
 import { Fragment, useState, useEffect } from "react";
 import ContactBtn from "./ContactBtn";
 import ProjectView from "./ProjectView";
@@ -49,7 +49,7 @@ function UxUi(params) {
         <div className="uxDrawing">
           <img
             className="pic1"
-            src={uxillus}
+            src={uxillusAlign}
             alt="people holding phones"
             style={{ width: "100%", height: "100%", objectFit: "contain" }}
           ></img>
