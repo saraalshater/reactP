@@ -49,4 +49,19 @@
       right: 40px; 
       bottom:5vh;
     }
+
+
+  }
+
+  @media only screen and (max-width: 700px)and (hover: hover) {
+   
+    .contactIcon>.pInBtn{
+      display: none;
+      
+        
+        }
+    
+        a:hover {
+          display: none;
+        } 
   }

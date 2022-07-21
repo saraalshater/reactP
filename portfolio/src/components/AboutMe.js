@@ -27,21 +27,18 @@ function AboutMe() {
     <>
      
       <div className="about-illstration-container">
-        <div className="illstration-caption">
+        <div className="about-illstration-caption">
           <h1 className="qoute">
             “I am not what I am, I am what I do with my hands.“
 
           </h1>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Louise Bourgeois</p>
+          <p>-Louise Bourgeois</p>
         </div>
 
 
 
         
-        {/* <div className="artDrawing">
-          <img  className="pic1" src={foto} alt="hand watering a plant" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
-             <img className="pic2"src={foto} alt="hand watering a plant" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
-        </div> */}
+    
       </div>
 
       <div className="about-project-container">
