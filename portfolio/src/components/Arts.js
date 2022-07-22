@@ -15,7 +15,7 @@ import ContactBtn from "./ContactBtn";
 
 
 
-const allCategories = ["All", ...new Set(data.filter(id=> id.id < 70 ).map((item) => item.category))];
+const allCategories = ["All", ...new Set(data.filter(id=> id.id < 73 ).map((item) => item.category))];
 // const allCategories = ["All", ...new Set(data.filter(type => type.category === 'Film photography' && 'Collages' && 'Multimedia'|| 'Sketches' || 'Filmmaking' ).map((item) => item.category))];
 // const withoutDuplicates = [...new Set(data.category)];
 function Arts() {
@@ -79,8 +79,8 @@ function Arts() {
       </div>
 
       <div className="art-container">
-        {uniqueCat.filter(id=> id.id < 70 ).map((item , i) => {
-          return item.category === "Filmmaking" ||item.category === "Multimedia" ? (
+        {uniqueCat.filter(id=> id.id < 73 ).map((item , i) => {
+          return item.category === "Filmmaking" ||item.category === "Graphics" ? (
             <div key={i}>
   <div className="art-projects-contants">
               <h2>

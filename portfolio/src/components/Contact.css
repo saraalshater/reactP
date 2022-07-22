@@ -12,7 +12,7 @@
 }
 
 .contacth1{
-    margin-bottom:2rem ;
+    margin-bottom:1rem ;
     color: #32302D;
 }
 label{
@@ -76,9 +76,24 @@ text-align: center;
 justify-content: center;
 padding: 1rem 0rem 5rem 0rem;
 }
-
+.alert{
+    background-color: #CEE7CD;
+    padding: 1px 0px ;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom:1rem ;
+    
+}
+.alert p{
+    font-size: small;
+    font-weight: 600;
+    color:#00685a;
+}
 
 @media only screen and (max-width: 700px) {
+    .header{
+        display: none;
+    }
     .contact-container{
         padding: 5rem 2rem 20rem 2rem;
         display:flex;

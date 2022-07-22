@@ -75,6 +75,54 @@ import sktsh6 from "../assets/sktch0-5.png"
 import sktsh7 from "../assets/sktch0-6.png" 
 
 
+import k0 from "../assets/k0.jpg";
+import k1 from "../assets/k1.png";
+import k2 from "../assets/k2.png";
+import k3 from "../assets/k3.png";
+import k4 from "../assets/k4.png";
+import k5 from "../assets/k5.png";
+import k6 from "../assets/k6.gif";
+import k7 from "../assets/k7.gif";
+import k8 from "../assets/k8.gif";
+import k9 from "../assets/k9.gif";
+
+
+
+import logos from "../assets/logos.png";
+import l1 from "../assets/l1.png";
+import l2 from "../assets/l2.png";
+import l3 from "../assets/l3.png";
+import l4 from "../assets/l4.png";
+
+
+
+import Dashboard from "../assets/Dashboard.png";
+import d1 from "../assets/D1.png";
+import d2 from "../assets/d2.png";
+import d3 from "../assets/d3.png";
+import d4 from "../assets/d4.png";
+import d5 from "../assets/d5.png";
+import d6 from "../assets/d6.png";
+import d7 from "../assets/d7.png";
+import d8 from "../assets/d8.png";
+import d9 from "../assets/d9.png";
+
+
+import c1 from "../assets/c1.png";
+import c2 from "../assets/c2.png";
+
+
+import mogallery from "../assets/mo-gallary.png";
+import mo1 from "../assets/mo1.png";
+import mo2 from "../assets/mo2.png";
+import mo3 from "../assets/mo3.png";
+
+ import e1 from '../assets/e1.png';
+ import e2 from '../assets/e2.png';
+ import e3 from '../assets/e3.png';
+ import e4 from '../assets/e4.png';
+ import e5 from '../assets/e5.png';
+
 const data = [
   {
     category: "Film photography",
@@ -859,16 +907,21 @@ const data = [
  
 
   {
-    category: "Multimedia",
+    category: "Graphics",
  id: 72,
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "Tips and tricks to write good code",
+        img: k0,
+        title: "Khashabi",
+        video: "",
         pics: [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-          "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-          "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
+          k1,
+          k2,
+          k3,
+          k4,
+          k5,
+          k6,
+          k7,
+          k8,
+          k9,
 
 
         ],
@@ -879,17 +932,15 @@ const data = [
   
   },
   {
-    category: "Multimedia",
+    category: "Graphics",
  id: 73,
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "mulit2",
+        img: logos,
+        title: "Logos",
         pics: [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-          "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-          "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
-
+          l1,
+          l2,
+          l3,
+          l4,
 
         ],
         subcategory: "arts",
@@ -899,17 +950,22 @@ const data = [
   
   },
   {
-    category: "Ux",
+    category: "Ui",
     id: 74,
 
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "UX1",
+        img: Dashboard,
+        title: "Dashboard Design",
         pics: [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-          "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-          "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
+         d1,
+         d2,
+         d3,
+         d4,
+         d5,
+         d6,
+         d7,
+         d8,
+         d9,
+  
 
 
         ],
@@ -920,17 +976,14 @@ const data = [
 
   },
   {
-    category: "Ux",
+    category: "Ui",
     id: 75,
   
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "Ux2",
+        img: c2,
+        title: "Car rental",
         pics: [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-          "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-          "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
+        c2,
+        c1,
 
 
         ],
@@ -940,19 +993,15 @@ const data = [
    
   },
   {
-    category: "Ux",
+    category: "Ui",
     id: 76,
  
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "UX3",
+        img: mogallery ,
+        title: "MO Gallery",
         pics: [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-          "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-          "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
-
-
+          mo1, 
+          mo2,
+          mo3,
         ],
         subcategory: "uxui",
       
@@ -961,21 +1010,19 @@ const data = [
    
   },
   {
-    category: "Programming",
+    category: "Ui",
     id: 77,
  
-        img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        title: "code 1",
+        img: e1,
+        title: "Eventful",
         pics: [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-          "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-          "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-          "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-          "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
-
+         e2,
+         e3,
+         e4,
+         e5,
 
         ],
-        subcategory: "programming",
+        subcategory: "Ui",
    
         description:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",

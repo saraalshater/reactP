@@ -99,7 +99,9 @@ margin-right: 1rem;
 
 
   @media only screen and (max-width: 880px){
-
+    .header{
+      display: none;
+  }
     .illstration-container{
       padding: 2em 2.11em 1em 2em;
     }
@@ -112,6 +114,7 @@ margin-right: 1rem;
       
     
     }
+
 
     .uxDrawing{
       float: right;
@@ -128,7 +131,9 @@ margin-right: 1rem;
   
 
   @media only screen and (max-width: 700px) {
-  
+    .header{
+      display: none;
+  }
     .illstration-container{
         position: relative;
         top: 4.8rem;

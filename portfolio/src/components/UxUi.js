@@ -65,7 +65,7 @@ function UxUi(params) {
       <div className="ux-projects-container">
        
          
-        {uniqueCat.filter(id=> id.id > 8 ).map((item , i) => {
+        {uniqueCat.filter(id=> id.id > 73  && id.id < 78).map((item , i) => {
           return (
             <div key={i}>
               <div className="ux-projects-contants">
