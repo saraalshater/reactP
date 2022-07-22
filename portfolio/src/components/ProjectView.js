@@ -12,6 +12,7 @@ import ContactBtn from "./ContactBtn";
 function ProjectView() {
   const [cardItem, setCardItem] = useState(data);
   const { id } = useParams()
+  
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
