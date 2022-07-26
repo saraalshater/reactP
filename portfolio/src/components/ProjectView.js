@@ -1,6 +1,7 @@
 import ReactPlayer from "react-player";
 import foto from "../assets/foto.jpg";
 import "./ProjectView.css";
+import Footer from "./Footer";
 import BurgerWeb from "./BurgerWeb";
 import sky from "../assets/sky.png";
 import Card from "./Card";
@@ -8,7 +9,9 @@ import { useParams } from "react-router-dom";
 import data, { uxData } from "./Data";
 import { useEffect, useState } from "react";
 import ContactBtn from "./ContactBtn";
+import linkicon from "../assets/linkicon.png"
 // import examplefoto from "../assets/examplefoto.jpg";
+import ContactbtnMobile from "./ContactbtnMobile";
 function ProjectView() {
   const [cardItem, setCardItem] = useState(data);
   const { id } = useParams();
@@ -39,6 +42,7 @@ function ProjectView() {
       <BurgerWeb />
 
       <ContactBtn />
+      <ContactbtnMobile/>
       {selectedPrject.map((item, i) => {
         return (
           <>
@@ -46,10 +50,11 @@ function ProjectView() {
               <div className="row">
                 <div className="intro-bg">
                   <div className="intro">
-                    <h4 className="cat">{item.category}</h4>
+                    <h4 className="cat">{item.subcategory}</h4>
                     <h1 className="title">{item.title}</h1>
                     <h3 className="brif-intro">{item.brief}</h3>
-                    <p className="para">{item.introPara}</p>
+                    <h4 className="para">{item.introPara}</h4>
+                    {item.url ? (<a href={item.url} style={{fontWeight:"bold", textDecoration:"underline",   color:"#242424"}}>Check out project link <img src={linkicon} width="13px" /></a>) : null}
                   </div>
                 </div>
 
@@ -80,31 +85,31 @@ function ProjectView() {
 
               <div className="about-project-container">
                 <div className="about-project">
-                  {item.header1 ? <h2>{item.header1}</h2> : null}
+                  {item.header1 ? <h2 className="h2-headers">{item.header1}</h2> : null}
 
                   {item.ul1
                     ? item.ul1.map((li, i) => {
                         return (
-                          <ul key={i}>
+                          <ul key={i} className="proj-ul">
                             <li>{li}</li>
                           </ul>
                         );
                       })
                     : null}
 
-                  {item.header2 ? <h2>{item.header2}</h2> : null}
+                  {item.header2 ? <h2 className="h2-headers" >{item.header2}</h2> : null}
 
                   {item.ul2
                     ? item.ul2.map((li, i) => {
                         return (
-                          <ul key={i}>
+                          <ul key={i} className="proj-ul">
                             <li>{li}</li>
                           </ul>
                         );
                       })
                     : null}
 
-                  {item.header3 ? <h1>{item.header3}</h1> : null}
+                  {item.header3 ? <h1 className="h1-headers">{item.header3}</h1> : null}
                   {item.para3 ? <p>{item.para3}</p> : null}
 
                   {item.profoto1
@@ -125,40 +130,40 @@ function ProjectView() {
                       })
                     : null}
 
-                  {item.header4 ? <h2>{item.header4}</h2> : null}
+                  {item.header4 ? <h2 className="h2-headers">{item.header4}</h2> : null}
                   {item.ul4
                     ? item.ul4.map((li, i) => {
                         return (
-                          <ul key={i}>
+                          <ul key={i} className="proj-ul">
                             <li>{li}</li>
                           </ul>
                         );
                       })
                     : null}
 
-                  {item.header5 ? <h2>{item.header5}</h2> : null}
+                  {item.header5 ? <h2 className="h2-headers">{item.header5}</h2> : null}
                   {item.ul5
                     ? item.ul5.map((li, i) => {
                         return (
-                          <ul key={i}>
+                          <ul key={i} className="proj-ul">
                             <li>{li}</li>
                           </ul>
                         );
                       })
                     : null}
 
-                  {item.header6 ? <h2>{item.header6}</h2> : null}
+                  {item.header6 ? <h2 className="h2-headers">{item.header6}</h2> : null}
                   {item.ul6
                     ? item.ul6.map((li, i) => {
                         return (
-                          <ul key={i}>
+                          <ul key={i} className="proj-ul">
                             <li>{li}</li>
                           </ul>
                         );
                       })
                     : null}
 
-                  {item.header7 ? <h1>{item.header7}</h1> : null}
+                  {item.header7 ? <h1 className="h1-headers" >{item.header7}</h1> : null}
                   {item.para7 ? <p>{item.para7}</p> : null}
                   {item.profoto2
                     ? item.profoto2.map((foto, i) => {
@@ -178,32 +183,32 @@ function ProjectView() {
                       })
                     : null}
 
-                  {item.header8 ? <h2>{item.header8}</h2> : null}
+                  {item.header8 ? <h2 className="h2-headers">{item.header8}</h2> : null}
                   {item.ul8
                     ? item.ul8.map((li, i) => {
                         return (
-                          <ul key={i}>
+                          <ul key={i} className="proj-ul">
                             <li>{li}</li>
                           </ul>
                         );
                       })
                     : null}
-                  {item.header9 ? <h2>{item.header9}</h2> : null}
+                  {item.header9 ? <h2 className="h2-headers">{item.header9}</h2> : null}
                   {item.ul9
                     ? item.ul9.map((li, i) => {
                         return (
-                          <ul key={i}>
+                          <ul key={i} className="proj-ul">
                             <li>{li}</li>
                           </ul>
                         );
                       })
                     : null}
 
-                  {item.header10 ? <h2>{item.header10}</h2> : null}
+                  {item.header10 ? <h2 className="h2-headers">{item.header10}</h2> : null}
                   {item.ul10
                     ? item.ul10.map((li, i) => {
                         return (
-                          <ul key={i}>
+                          <ul key={i} className="proj-ul">
                             <li>{li}</li>
                           </ul>
                         );
@@ -211,7 +216,7 @@ function ProjectView() {
                     : null}
 
 
-{item.header11 ? <h1>{item.header11}</h1> : null}
+{item.header11 ? <h1 className="h1-headers">{item.header11}</h1> : null}
                   {item.para11 ? <p>{item.para11 }</p> : null}
                   {item.profoto3
                     ? item.profoto3.map((foto, i) => {
@@ -231,21 +236,21 @@ function ProjectView() {
                       })
                     : null}
 
-{item.header12 ? <h2>{item.header12}</h2> : null}
+{item.header12 ? <h2 className="h2-headers">{item.header12}</h2> : null}
                   {item.ul12
                     ? item.ul12.map((li, i) => {
                         return (
-                          <ul key={i}>
+                          <ul key={i} className="proj-ul">
                             <li>{li}</li>
                           </ul>
                         );
                       })
                     : null}
-                    {item.header13 ? <h2>{item.header13}</h2> : null}
+                    {item.header13 ? <h2 className="h2-headers">{item.header13}</h2> : null}
                   {item.ul13
                     ? item.ul13.map((li, i) => {
                         return (
-                          <ul key={i}>
+                          <ul key={i} className="proj-ul">
                             <li>{li}</li>
                           </ul>
                         );
@@ -292,6 +297,7 @@ function ProjectView() {
           </>
         );
       })}
+      <Footer />
     </>
   );
 }

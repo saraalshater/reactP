@@ -5,15 +5,15 @@ import contactIcon from "../assets/contactIcon.png";
 import "./Home.css";
 import Card from "./Card";
 
-
+import Footer from "./Footer";
 import foto from "../assets/foto.jpg"
 import examplefoto from "../assets/examplefoto.jpg"
 import contactIconSmall from "../assets/contactIconSmall.png"
-
+import "./Card.css";
 import data from "./Data";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import ContactBtn from "./ContactBtn";
+
 
 function Home() {
   const [cardItem, setMenuItem] = useState(data);
@@ -64,17 +64,31 @@ function Home() {
         <div className="lastest-projects-container">
           <div className="lastest-projects-contants">
             <h1>Lastest Projects</h1>
-               
-        {uniqueCat.filter(id=> id.id > 69 && id.id < 73 ).map((item , i) => {
+            <div className="Cards-container">      
+        {cardItem.filter(id=> id.id === 74 || id.id === 78 || id.id === 79 ).map((item , i) => {
           return (
             <div key={i}>
   
-          
-             <Card cardItem={cardItem} cat={item.category} />
+      
+         
+            <div className="card-container" >
+              <img src={item.img} alt="example" className="card-img" />
+              <h2>{item.title}</h2>
+              <p className="category">{item.category}</p>
+
+              <Link to={`/projectview/${item.id}`}>
+                <button className="card-btn">Veiw</button>
+              </Link>
             </div>
+          
+     
+      </div>
+          
+       
+           
           );
         })}
-               
+             </div>   
                 
             </div>
 
@@ -83,7 +97,7 @@ function Home() {
 
 
         
-      
+          <Footer />
      
     </>
   );

@@ -1,5 +1,5 @@
 import Card from "./Card";
-
+import Footer from "./Footer";
 import { Link,Routes, Route, useParams } from "react-router-dom";
 import data from "./Data";
 import foto from "../assets/foto.jpg";
@@ -14,7 +14,7 @@ import uxillusAlign from "../assets/hands-phone-2.png";
 import { Fragment, useState, useEffect } from "react";
 import ContactBtn from "./ContactBtn";
 import ProjectView from "./ProjectView";
-
+import ContactbtnMobile from "./ContactbtnMobile";
 function UxUi(params) {
   const [cardItem, setCardItem] = useState(data);
 
@@ -38,8 +38,10 @@ function UxUi(params) {
   
   return (
     <>
+    
       <BurgerWeb />
       <ContactBtn/>
+      <ContactbtnMobile/>
       <div className="illstration-container">
         <div className="illstration-caption">
           <h1>The best thing designers can use to create a good user experience is to empathize </h1>
@@ -84,7 +86,7 @@ function UxUi(params) {
       </div>
      
 
-
+      <Footer />
     </>
   );
 }

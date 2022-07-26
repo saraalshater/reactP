@@ -7,7 +7,7 @@ import uniJoLogo from "../assets/University_of_Jordan_Logo_2.png";
 import isiLogo from "../assets/isi_logo_2.png";
 import codeLogo from "../assets/code_fellows_logo.png";
 import googleLogo from "../assets/Google_Logo.png";
-
+import Footer from "./Footer";
 function AboutMe() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -193,6 +193,8 @@ function AboutMe() {
       <div ref={scrollRef}>
         <Contact />
       </div>
+
+    
     </>
   );
 }

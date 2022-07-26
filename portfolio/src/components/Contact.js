@@ -8,7 +8,7 @@ import { send } from "emailjs-com";
 import contactill from "../assets/contactill.png";
 import mailVector from "../assets/mailVector.png";
 import BurgerWeb from "./BurgerWeb";
-
+import Footer from "./Footer";
 function Contact() {
   const [sender_email, set_sender_email] = useState("");
   const [sender_subject, set_sender_subject] = useState("");
@@ -152,6 +152,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

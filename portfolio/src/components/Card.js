@@ -13,7 +13,7 @@ function Card({ cardItem, cat }) {
             <div className="card-container" key={i}>
               <img src={item.img} alt="example" className="card-img" />
               <h2>{item.title}</h2>
-              <p className="category">{item.category}</p>
+              <p className="category">{item.subcategory}</p>
 
               <Link to={`/projectview/${item.id}`}>
                 <button className="card-btn">Veiw</button>
