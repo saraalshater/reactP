@@ -1,14 +1,13 @@
-.footer{
-    display: none;
-} 
 
- .header{
+
+ /* .header{
     display: none;
-}
+} */
 .not-found{
 
     text-align: center;
     margin-top: 35vh;
+    margin-bottom: 28vh;
 }
 
 

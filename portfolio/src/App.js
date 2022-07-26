@@ -48,7 +48,7 @@ function App() {
       </Suspense>
       <WebHeader />
 
-      <Footer />
+      
     </>
   );
 }

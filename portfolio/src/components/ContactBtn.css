@@ -42,14 +42,17 @@
 
 
   @media only screen and (max-width: 700px) {
-    .contactIcon{
+    /* .contactIcon{
       width: 60px;
       height: 60px;
       background-size: 30px;
       right: 40px; 
       bottom:5vh;
-    }
+    } */
 
+    .contactIcon{
+      display: none;
+    }
 
   }
 

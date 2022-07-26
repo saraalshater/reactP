@@ -122,6 +122,41 @@ import d2HiFi from "../assets/d2-hi-fi.png";
 import d3Sktch from "../assets/d3-sktch.png";
 import d3HiFi from "../assets/d3-hi-fi.png";
 
+import iOverview from "../assets/iOverview.png";
+import i1 from "../assets/i1.png";
+import i2 from "../assets/i2.png";
+import i3 from "../assets/i3.png";
+import i4 from "../assets/i4.png";
+import i5 from "../assets/i5.png";
+import i6 from "../assets/i6.png";
+import i7 from "../assets/i7.png";
+import i8 from "../assets/i8.png";
+import i9 from "../assets/i9.png";
+import i10 from "../assets/i10.png";
+import i11 from "../assets/i11.png";
+import i12 from "../assets/i12.png";
+import i13 from "../assets/i13.png";
+import i14 from "../assets/i14.png";
+import i15 from "../assets/i15.png";
+
+import wOverview from "../assets/wOverview.png";
+import w1 from "../assets/w1.png";
+import w2 from "../assets/w2.png";
+import w3 from "../assets/w3.png";
+import w4 from "../assets/w4.png";
+import w5 from "../assets/w5.png";
+import w6 from "../assets/w6.png";
+import w7 from "../assets/w7.png";
+
+import Ccv from "../assets/Ccv.png";
+import cc1 from "../assets/cc1.png";
+import cc2 from "../assets/cc2.png";
+import cc3 from "../assets/cc3.png";
+import cc4 from "../assets/cc4.png";
+import cc5 from "../assets/cc5.png";
+import cc6 from "../assets/cc6.png";
+import cc7 from "../assets/cc7.png";
+
 const data = [
   {
     category: "Film photography",
@@ -597,90 +632,99 @@ const data = [
   },
   {
     category: "Filmmaking",
+    subcategory: "Filmmaking",
     id: 71,
-
+    
     img: cover,
     title: "Out Of Silance",
     video: "https://www.youtube.com/watch?v=RmiI72-iSvM",
     pics: [film1, film2, film3],
 
-    subcategory: "arts",
+  
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
   },
 
   {
-    category: "Graphics",
+    category: "Graphic Design",
+    subcategory :"Graphic Design",
+    
     id: 72,
     img: k0,
     title: "Khashabi",
-    video: "",
+    video: "https://youtu.be/ppMEDzUk3lk",
     pics: [k1, k2, k3, k4, k5, k6, k7, k8, k9],
-    subcategory: "arts",
+   
 
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
   },
   {
-    category: "Graphics",
+    category: "Graphic Design",
+    subcategory :"Graphic Design",
     id: 73,
     img: logos,
     title: "Logos",
     pics: [l1, l2, l3, l4],
-    subcategory: "arts",
+    
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+   
   },
   {
-    category: "Ui",
+    category: "User Interfaces",
+    subcategory :"User Interface",
     id: 74,
 
     img: Dashboard,
     title: "Dashboard Design",
     pics: [d1, d2, d3, d4, d5, d6, d7, d8, d9],
-    subcategory: "uxui",
+    
 
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
   },
   {
-    category: "Ui",
+    category: "User Interfaces",
+    subcategory :"User Interface",
     id: 75,
 
     img: c2,
     title: "Car rental",
     pics: [c2, c1],
-    subcategory: "uxui",
+    
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
   },
   {
-    category: "Ui",
+    category: "User Interfaces",
+    subcategory :"User Interface",
     id: 76,
 
     img: mogallery,
     title: "MO Gallery",
+    url:"https://www.mogalleryjo.com/app/",
     pics: [mo1, mo2, mo3],
-    subcategory: "uxui",
+   
 
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
   },
   {
-    category: "Ui",
+    category: "User Interfaces",
+    subcategory :"User Interface",
     id: 77,
 
     img: e1,
     title: "Eventful",
     pics: [e2, e3, e4, e5],
-    subcategory: "Ui",
+  
 
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
   },
   {
-    category: "Ux",
+    category: "Ux Case Studies",
+    subcategory :"Ux Case Study",
     id: 78,
 
     img: carGame,
@@ -688,15 +732,16 @@ const data = [
     brief: "HUD screen for a car game",
     introPara:
       "Alternative sketches and high-fidelity interfaces for the car controller in a car game. Designed for a game company in (2022).",
-    header1: "Information",
+    
+      header1: "Information",
     ul1: [
       "Tools: Figma, Miro, illustrator, photoshop.",
-      "Timeline: 4 Days.",
+      "Duration: 4 Days.",
       "Target devices: Mobile.",
       "Target audience age: 4-30.",
       "Deliverables: High-fidelity UI screen.",
     ],
-    
+
     header2: "Search process",
     ul2: [
       "Played car games by Shanab company and other best rating car games.",
@@ -706,7 +751,7 @@ const data = [
       "Research about car controls mode.",
       "Conduct quick tests with family members by playing similar car games, members ages between (4-30).",
     ],
-    header3: "First design",
+    header3: "First design(Choosen design):",
     para3:
       "This design focuses on the most important and usable buttons to players by making them clear and reachable, while considering the target audience ages and needs. The sketch shows all the HUD requirement buttons. Divided to color based on its importance to the player.",
     profoto1: [d1Sktch, d1HiFi],
@@ -733,65 +778,187 @@ const data = [
       "These instructions should be displayed to users in the tutorial.",
     ],
     header9: "Advantages:",
-    ul9: ["Better experience by less visuals on the screen.", "Hiding the handbreak could be an advantage for young users as it is less important."],
+    ul9: [
+      "Better experience by less visuals on the screen.",
+      "Hiding the handbreak could be an advantage for young users as it is less important.",
+    ],
     header10: "Disadvantages:",
-    ul10: ["Young users might find it hard to figure out how the implement the nitrous.",
-  "Could be hard to figure out how to implement the hidden functions if the user did not watch the tutorial."],
-
-  header11: "Third design:",
-  para11:
-    "This design focuses on creating a better user experience by trying to simulate the reality.",
-  profoto3: [d3Sktch, d3HiFi],
-  header12: "Advantages:",
-  ul12: ["Realistic controllers", ],
-  header13: "Disadvantages:",
-  ul13: ["Could create a bad experience on small screens.",],
-
-    pics: [
-      d1HiFi,
-      d2HiFi,
-      d3HiFi,
+    ul10: [
+      "Young users might find it hard to figure out how the implement the nitrous.",
+      "Could be hard to figure out how to implement the hidden functions if the user did not watch the tutorial.",
     ],
-    subcategory: "Ux",
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+    header11: "Third design:",
+    para11:
+      "This design focuses on creating a better user experience by trying to simulate the reality.",
+    profoto3: [d3Sktch, d3HiFi],
+    header12: "Advantages:",
+    ul12: ["Realistic controllers"],
+    header13: "Disadvantages:",
+    ul13: ["Could create a bad experience on small screens."],
+
+    pics: [d1HiFi, d2HiFi, d3HiFi],
+    
+
+   
   },
   {
     category: "Programming",
+    subcategory: "Programming",
     id: 79,
+    
 
-    img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-    title: "code 3",
-    pics: [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-      "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-      "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-      "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-      "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
+    img: iOverview,
+    title: "Init app",
+   
+    brief: "Built with Java language (Spring Boot)",
+    introPara:
+      "Init is an interactive app that gather programmers in one place and help beginner programmers to start. This app was developed in 2021",
+      url:"https://github.com/SSD-Coders/init",
+    header1: "Information",
+    ul1: [
+      "Duration : 1 week.",
+      "Team: 7 Members.",
+      "My role: Frontend developing side and Design.",
+      
     ],
-    subcategory: "programming",
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+    header2: "Technologies & Tools",
+    ul2: [
+      "Java language (Spring boot)",
+      "Api and Json",
+      "WebSocket",
+      "PostgreSQL",
+      "Thymeleaf",
+      "Html,CSS,JavaScript",
+      "Bootstrap",
+      "Figma",
+    ],
+
+    header4: "Features",
+    ul4: [
+      "User can register and have a profile.",
+      "User can follow and unfollow other users.",
+      "User can comment and like other users posts.",
+      "User can (add, delete, post and edit) their posts and comments.",
+      "User can update their profile.",
+      "User can get courses from the website ",
+      "Admin panel (Admin can manage, add and delete any user).",
+      "Lobby chat(group chatting between users).",
+    ],
+
+    para7:
+    "Feed page that displays all the posts by the users you follow.",
+  profoto2: [i9],
+
+  para11:
+  "Users can take quizes and get their score.",
+profoto3: [i10, i11],
+
+    pics: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15],
+   
+
+  
   },
   {
     category: "Programming",
+    subcategory: "Programming",
     id: 80,
 
-    img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-    title: "code 4",
-    pics: [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7LbhXrXgGxH5h-J5uj8kWxl51FA0Vv2Uyw&usqp=CAU",
-      "https://media.gettyimages.com/photos/crowd-walking-over-binary-code-picture-id1185884207?s=2048x2048",
-      "https://media.gettyimages.com/photos/random-picture-id1068399810?s=2048x2048",
-      "https://media.gettyimages.com/photos/side-view-of-young-woman-sitting-blue-line-graph-picture-id1227304981?s=2048x2048",
-      "https://media.gettyimages.com/photos/young-man-climbing-up-on-blue-bar-graphs-picture-id1227304580?s=2048x2048",
+   
+    img: wOverview,
+    title: "WeekBeat",
+   
+    brief: "Built with Reactjs (JavaScript)",
+    introPara:
+      "A full CRUD app that contain suggestions to different entertainment activities and events. Displayed depends on the location that the user enter. Developed in (2021)",
+      url:"https://github.com/react-warriors-301",
+    header1: "Information",
+    ul1: [
+      "Duration : 1 week.",
+      "Team: 5 Members.",
+      "My role: worked on the frontend and the backend.",
+      
     ],
-    subcategory: "programming",
+    header2: "Technologies & Tools",
+    ul2: [
+      "Reactjs",
+      "Bootstarp",
+      "Auth0",
+      "MongoDB",
+      "Nodejs",
+      "Html,CSS",
+      "Axios",
+     
+    ],
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+    header4: "Features",
+    ul4: [
+      "User can register and have a profile.",
+      "User can add or delete any activity to their favorite list.",
+      "User can (add, delete, and edit) their blog.",
+      "Website displays different suggestions to activity, movies, restaurants, events that are happening on a specific location that the user enters.  ",
+      
+    ],
+
+    pics: [
+       w1,
+       w2, 
+       w3,
+       w4,
+       w5,
+       w6,
+       w7,
+    ],
+    
+
+   
+  },
+  {
+    category: "Programming",
+    subcategory: "Programming",
+    id: 81,
+
+    img: Ccv,
+    title: "Code Care",
+    brief: "Built with Vanilla JavaScript",
+    introPara:
+    "A website that has coding courses and other products. Developed in (2021)",
+    url:"https://github.com/The-A-Team-2021/Code-Care",
+    header1: "Information",
+    ul1: [
+      "Duration : 1 week.",
+      "Team: 4 Members.", 
+    ],
+
+    header2: "Technologies & Tools",
+    ul2: [
+      "Vanilla JavaScript",
+      "Html",
+      "Css",
+      
+     
+    ],
+
+    header4: "Features",
+    ul4: [
+      "The website has different products.",
+      "User can add and delete any product to the cart.",
+      "User can test their CSS, Html and JS code using the website's code editor.", 
+    ],
+
+    pics: [
+      cc1,
+      cc2,
+      cc3,
+      cc4,
+      cc5,
+      cc6,
+      cc7,
+    ],
+   
+
+   
   },
 ];
 

@@ -5,7 +5,8 @@ import BurgerWeb from "./BurgerWeb";
 import Card from "./Card";
 import ContactBtn from "./ContactBtn";
 import prog from "../assets/prog.png";
-
+import Footer from "./Footer";
+import ContactbtnMobile from "./ContactbtnMobile";
 function Programming(params) {
   const [cardItem, setCardItem] = useState(data);
 
@@ -29,6 +30,7 @@ function Programming(params) {
     <>
       <BurgerWeb />
       <ContactBtn />
+      <ContactbtnMobile/>
       <div className="illstration-container">
         <div className="illstration-caption">
           <h1>Programming</h1>
@@ -56,7 +58,7 @@ function Programming(params) {
       <div className="ux-projects-container">
         <div className="ux-projects-contants">
           {uniqueCat
-            .filter((id) => id.id > 11)
+            .filter((id) => id.id > 78 && id.id <82)
             .map((item, i) => {
               return (
                 <div key={i}>
@@ -67,6 +69,7 @@ function Programming(params) {
             })}
         </div>
       </div>
+      <Footer />
     </>
   );
 }

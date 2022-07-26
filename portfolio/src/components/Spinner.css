@@ -7,6 +7,7 @@ left: 46%;
     border-top: 5px dotted #222222;
     width: 80px;
     height: 80px;
+    
     -webkit-animation: spin 2s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
   }

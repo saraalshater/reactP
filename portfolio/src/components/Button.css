@@ -1,4 +1,6 @@
-
+.cat-mob-view{
+  display: none;
+}
 
 .fltr-container{
   margin-top: 3rem;
@@ -34,17 +36,37 @@ text-align: center;
 
 
   @media only screen and (max-width: 700px) {
+    .cat-mob-view{
+      padding: 2rem 3rem 0rem 2rem;
+      display: inline-block;
+      text-align: left;
+      margin-top: 80px;
+position: absolute;
+    }
     .fltr-container{
       margin-top: 4rem;
-    padding: 2rem 3rem 0rem 3rem;
+    padding: 5rem 3rem 0rem 2rem;
     width: 100%;
-    
+    overflow: auto;
     text-align: center;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    
+
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
     }
 
+    .fltr-container::-webkit-scrollbar {
+      display: none;
+    }
+
+    
 
     .fltr-btn{
-      font-size: 14px;
+      font-size: 16px;
         float: none;
         background: #FCFCFC;
         color :#818181;
