@@ -113,8 +113,9 @@ padding: 1rem 0rem 5rem 0rem;
      
         flex-direction: column;
         width: 100%;
-     
-        padding-top: 34rem ;
+        padding-top: 0rem ;
+        padding-left: 3rem ;
+        margin-top: 34rem ;
     
     }
 

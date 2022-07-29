@@ -60,9 +60,11 @@ import collage8 from "../assets/collage8.png";
 import collage9 from "../assets/collage9.png";
 
 import cover from "../assets/cover.png";
-import film1 from "../assets/film1.png";
 import film2 from "../assets/film2.png";
 import film3 from "../assets/film3.png";
+import film4 from "../assets/film4.png";
+import film5 from "../assets/film5.png";
+import film6 from "../assets/film6.png";
 
 import sktsh1 from "../assets/sktch0-0.jpeg";
 import sktsh2 from "../assets/sktch0-1.png";
@@ -637,8 +639,12 @@ const data = [
     
     img: cover,
     title: "Out Of Silance",
+
+    brief: "Short movie",
+    introPara:
+      "A short movie that i wrote and directed in 2018.",
     video: "https://www.youtube.com/watch?v=RmiI72-iSvM",
-    pics: [film1, film2, film3],
+    pics: [film2, film3, film4, film5, film6],
 
   
     description:
@@ -646,7 +652,7 @@ const data = [
   },
 
   {
-    category: "Graphic Design",
+    category: "Multimedia",
     subcategory :"Graphic Design",
     
     id: 72,
@@ -662,7 +668,7 @@ const data = [
     
   },
   {
-    category: "Graphic Design",
+    category: "Multimedia",
     subcategory :"Graphic Design",
     id: 73,
     img: logos,
