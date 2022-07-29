@@ -18,6 +18,8 @@
 }
 .qoute{
     font-style: italic;
+    font-size: 32px;
+    font-weight: 430;
    
 
 }
@@ -27,7 +29,9 @@
     float: right;   
 }
 
-
+.Edu-container-one{
+    margin-bottom: 3rem;
+}
 .Edu-Cer-container{
     padding: 3rem 4rem 0rem 4rem;
 

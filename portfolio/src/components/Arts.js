@@ -65,7 +65,7 @@ function Arts() {
       <ContactbtnMobile/>
       <div className="art-illstration-container">
         <div className="art-illstration-caption">
-          <h1>Art is standing with one hand extended into the universe and one hand extended into the world, and letting ourselves be a conduit for passing energy.</h1>
+          <p className="category-intro">Art is my way to express myself and how I see the world</p>
           <p></p>
         </div>
 
@@ -76,7 +76,7 @@ function Arts() {
       </div>
 
       
-      <h2 className="cat-mob-view">Categories</h2>
+      <h1 className="cat-mob-view">Categories</h1>
       <div className="fltr-container">
      
         <Button button={buttons} filter={filter} />
@@ -87,19 +87,19 @@ function Arts() {
           return item.category === "Filmmaking" ||item.category === "Graphic Design" ? (
             <div key={i}>
   <div className="art-projects-contants">
-              <h2>
+              <h1>
                 
                 {item.category}
               
                 
-                </h2>
+                </h1>
              <Card cardItem={cardItem} cat={item.category} />
             </div>
             </div>
           ) :  <>
                 <div className="art-projects-contants">
  
-               <h2>{item.category}</h2> 
+               <h1>{item.category}</h1> 
                <Img cardItem={cardItem} cat={item.category}  />
                </div>
                </>

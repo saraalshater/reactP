@@ -80,7 +80,7 @@ font-weight: 600;
 }
 
 .name-card {
-  padding: 2rem 4rem 3rem 4rem;
+  padding: 3rem 4rem 4.2rem 4rem;
 }
 
 .name-card,
@@ -90,7 +90,9 @@ h1 {
 
 .name-card,
 p {
-  font-size: 20px;
+ 
+  font-size: 22px;
+  font-weight: 430;
  
 }
 
@@ -123,7 +125,7 @@ button:hover {
 }
 .lastest-projects-container {
   
-  padding: 14rem 4rem 7rem 4rem;
+  padding: 13.7rem 4rem 7rem 4rem;
 
 }
 
@@ -202,7 +204,7 @@ button:hover {
     /* align-items: flex-start; */
   
   
-    padding: 7.5rem 2rem 0rem 2rem;
+    padding: 7rem 2rem 0rem 2rem;
   }
 
   .lastest-projects-container {
@@ -214,11 +216,11 @@ button:hover {
     position: relative;
     list-style: none;
     padding: 0;
-    margin: 1em 0em 7em;
+    margin: 1em 0em 5em;
   
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30ch, 2fr));
-    grid-gap: 5rem;
+    grid-gap: 2.5rem;
     max-width: 100%;
     width: 70ch;
     

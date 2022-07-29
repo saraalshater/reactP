@@ -1,4 +1,4 @@
-import ProjectView from "./ProjectView";
+
 import { useEffect, useState } from "react";
 import data from "./Data";
 import BurgerWeb from "./BurgerWeb";
@@ -7,6 +7,7 @@ import ContactBtn from "./ContactBtn";
 import prog from "../assets/prog.png";
 import Footer from "./Footer";
 import ContactbtnMobile from "./ContactbtnMobile";
+import "./UxUi.css";
 function Programming(params) {
   const [cardItem, setCardItem] = useState(data);
 
@@ -33,8 +34,8 @@ function Programming(params) {
       <ContactbtnMobile/>
       <div className="illstration-container">
         <div className="illstration-caption">
-          <h1>Programming</h1>
-          <p>Lorem</p>
+          <p className="category-intro">These projects were done working in teams, where mostly my role was on frontend side.</p>
+         
         </div>
 
         <div className="uxDrawing">
@@ -62,7 +63,7 @@ function Programming(params) {
             .map((item, i) => {
               return (
                 <div key={i}>
-                  <h2>{item.category}</h2>
+                  <h1>{item.category}</h1>
                   <Card cardItem={cardItem} cat={item.category} />
                 </div>
               );

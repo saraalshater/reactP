@@ -44,8 +44,8 @@ function UxUi(params) {
       <ContactbtnMobile/>
       <div className="illstration-container">
         <div className="illstration-caption">
-          <h1>The best thing designers can use to create a good user experience is to empathize </h1>
-          <p></p>
+        
+          <p className="category-intro">I like this field because it’s a combination of design, technology and human computer interaction.</p>
         </div>
 
         <div className="uxDrawing">
@@ -72,12 +72,12 @@ function UxUi(params) {
             <div key={i}>
               <div className="ux-projects-contants">
   
-              <h2>
+              <h1>
                 
                 {item.category}
               
                 
-                </h2>
+                </h1>
              <Card cardItem={cardItem} cat={item.category} />
             </div>
         </div>
