@@ -14,6 +14,7 @@ import Contact from "./Contact";
 import ContactBtn from "./ContactBtn";
 import Footer from "./Footer";
 import ContactbtnMobile from "./ContactbtnMobile";
+import artIllmob from "../assets/white-bg-wtring.png";
 
 const allCategories = ["All", ...new Set(data.filter(id=> id.id < 73 ).map((item) => item.category))];
 // const allCategories = ["All", ...new Set(data.filter(type => type.category === 'Film photography' && 'Collages' && 'Multimedia'|| 'Sketches' || 'Filmmaking' ).map((item) => item.category))];
@@ -65,13 +66,13 @@ function Arts() {
       <ContactbtnMobile/>
       <div className="art-illstration-container">
         <div className="art-illstration-caption">
-          <p className="category-intro">Art is my way to express myself and how I see the world</p>
+          <p className="category-intro">Art is my way to express myself and how I see the world. I get inspired by people, nature and music.</p>
           <p></p>
         </div>
 
         <div className="artDrawing">
           <img  className="pic1" src={watering} alt="hand watering a plant" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
-             <img className="pic2"src={watering} alt="hand watering a plant" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
+             <img className="pic2"src={artIllmob} alt="hand watering a plant" style={{ width: "100%", height: "100%", objectFit: "contain" }}></img>
         </div>
       </div>
 
