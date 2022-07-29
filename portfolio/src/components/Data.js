@@ -652,12 +652,14 @@ const data = [
     id: 72,
     img: k0,
     title: "Khashabi",
+    brief: "Wood recycling project",
+    introPara:
+      "Khashabi is a project of reusing wood and converting it into usable art pieces. project was done in (2017).",
     video: "https://youtu.be/ppMEDzUk3lk",
     pics: [k1, k2, k3, k4, k5, k6, k7, k8, k9],
    
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+    
   },
   {
     category: "Graphic Design",
@@ -665,6 +667,9 @@ const data = [
     id: 73,
     img: logos,
     title: "Logos",
+    brief: "",
+    introPara:
+      "",
     pics: [l1, l2, l3, l4],
     
 
@@ -677,11 +682,13 @@ const data = [
 
     img: Dashboard,
     title: "Dashboard Design",
+    brief: "Dashboard design for a Human Resource Management system",
+    introPara:
+      "User friendly and responsive dashboard interface. Designed in (2022).",
     pics: [d1, d2, d3, d4, d5, d6, d7, d8, d9],
     
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+  
   },
   {
     category: "User Interfaces",
@@ -689,11 +696,13 @@ const data = [
     id: 75,
 
     img: c2,
-    title: "Car rental",
+    title: "Search screen",
+    brief: "Search screen design for a car-rental website",
+    introPara:
+      "Designed in (2022).",
     pics: [c2, c1],
     
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+   
   },
   {
     category: "User Interfaces",
@@ -702,25 +711,30 @@ const data = [
 
     img: mogallery,
     title: "MO Gallery",
+    brief: "Photographers Booking Website.",
+    introPara:
+      "Online Booking system for Photographers. Designed in (2020)",
     url:"https://www.mogalleryjo.com/app/",
     pics: [mo1, mo2, mo3],
    
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+   
   },
   {
     category: "User Interfaces",
     subcategory :"User Interface",
     id: 77,
-
+   
+   
     img: e1,
     title: "Eventful",
+    brief: "Events app design",
+    introPara:
+    "Eventful is an app to discover popular and nearby events. Designed in (2019)",
     pics: [e2, e3, e4, e5],
   
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+  
   },
   {
     category: "Ux Case Studies",

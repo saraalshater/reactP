@@ -63,7 +63,7 @@ function Home() {
 
         <div className="lastest-projects-container">
           <div className="lastest-projects-contants">
-            <h1>Lastest Projects</h1>
+            <h1>Latest Projects</h1>
             <div className="Cards-container">      
         {cardItem.filter(id=> id.id === 74 || id.id === 78 || id.id === 79 ).map((item , i) => {
           return (
@@ -74,7 +74,7 @@ function Home() {
             <div className="card-container" >
               <img src={item.img} alt="example" className="card-img" />
               <h2>{item.title}</h2>
-              <p className="category">{item.category}</p>
+              <p className="category">{item.subcategory}</p>
 
               <Link to={`/projectview/${item.id}`}>
                 <button className="card-btn">Veiw</button>

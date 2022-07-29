@@ -54,7 +54,7 @@ function ProjectView() {
                     <h1 className="title">{item.title}</h1>
                     <h3 className="brif-intro">{item.brief}</h3>
                     <h4 className="para">{item.introPara}</h4>
-                    {item.url ? (<a href={item.url} style={{fontWeight:"bold", textDecoration:"underline",   color:"#242424"}}>Check out project link <img src={linkicon} width="13px" /></a>) : null}
+                    {item.url ? (<a href={item.url} style={{fontWeight:"bold", textDecoration:"underline",   }}>Check out project link <img src={linkicon} width="13px" /></a>) : null}
                   </div>
                 </div>
 
@@ -278,7 +278,7 @@ function ProjectView() {
 
             <div className="related-projects-container">
               <div className="related-projects-contants">
-                <h2>Check out related projects</h2>
+                <h1>Check out related projects</h1>
 
                 {cardItem
                   .filter((id) => id.id === item.id + 2)
