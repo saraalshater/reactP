@@ -5,6 +5,9 @@
 padding: 1rem 0rem 3rem 0rem  ;
 } 
 
+.art-img-projects-contants{
+  padding: 1rem 0rem 3rem 0rem  ;
+}
 
 .art-illstration-container{
     background-image: url("../assets/dot-cut.png");
@@ -15,7 +18,7 @@ padding: 1rem 0rem 3rem 0rem  ;
     height: 40vh;
     overflow: hidden;
     padding: 0rem 2rem 0rem 4rem;
-    /* border:red solid 3px; */
+  
 }
 
 .category-intro{
@@ -28,9 +31,8 @@ padding: 1rem 0rem 3rem 0rem  ;
   
     width: 70%;
     height: 100%;
-    padding-top:3.8rem;
+    padding-top:3.5rem;
     
-      /* border:red solid 3px; */
   
   }
 
@@ -47,7 +49,7 @@ padding: 1rem 0rem 3rem 0rem  ;
     width: 20%;
     height: 100%;
     position: relative;
-  /* border: 2px red solid; */
+
   margin-right: 1rem;
     
     
@@ -56,6 +58,7 @@ padding: 1rem 0rem 3rem 0rem  ;
 
 
   @media only screen and (max-width: 880px){
+    
 
     .art-illstration-container{
       padding: 2em 2.11em 1em 1em;
@@ -91,6 +94,10 @@ padding: 1rem 0rem 3rem 0rem  ;
   .category-intro{
     font-size: 22px;
     font-weight: 430;
+  }
+  
+  .art-img-projects-contants{
+    padding: 2rem 0rem 5rem 0rem  ;
   }
   .art-projects-contants{
     padding: 2rem 0rem 0rem 0rem  ;

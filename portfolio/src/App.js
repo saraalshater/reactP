@@ -1,10 +1,9 @@
-import React, { Suspense } from "react";
+
 import "./App.css";
-import { useEffect } from "react";
+import React, { Suspense, useEffect } from "react";
+import { GlobalDebug } from "./components/remove-consoles";
 import { Routes, Route } from "react-router-dom";
 import WebHeader from "./components/WebHeader";
-import ContactBtn from "./components/ContactBtn";
-import Footer from "./components/Footer";
 import LoadingSpinner from "./components/LoadingSpinner";
 import NotFound from "./components/NotFound";
 import UxUi from "./components/UxUi";
@@ -24,9 +23,19 @@ const ProjectView = React.lazy(() => import("./components/ProjectView"));
 const Contact = React.lazy(() => import("./components/Contact"));
 
 function App() {
+ 
+  useEffect(() => {
+    (process.env.NODE_ENV === "production" ||
+     process.env.REACT_APP_ENV === "STAGING") &&
+      GlobalDebug(false);
+  }, []);
+
+  console.log("I am just another dummy console log, suppose to be suppressed 🙂");
+ 
+ 
   return (
     <>
-
+     <React.StrictMode>
       <Suspense
         fallback={
           <div className="centered">
@@ -36,7 +45,6 @@ function App() {
       >
         <Routes>
           <Route path="/" exact element={<Home />} />
-
           <Route path="/uxui" element={<UxUi />} />
           <Route path="/projectview/:id" element={<ProjectView />} />
           <Route path="/programming" element={<Programming />} />
@@ -47,8 +55,7 @@ function App() {
         </Routes>
       </Suspense>
       <WebHeader />
-
-      
+      </React.StrictMode>
     </>
   );
 }

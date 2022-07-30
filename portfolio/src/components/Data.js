@@ -636,25 +636,23 @@ const data = [
     category: "Filmmaking",
     subcategory: "Filmmaking",
     id: 71,
-    
+
     img: cover,
     title: "Out Of Silance",
 
     brief: "Short movie",
-    introPara:
-      "A short movie that i wrote and directed in 2018.",
+    introPara: "A short movie that i wrote and directed in 2018.",
     video: "https://www.youtube.com/watch?v=RmiI72-iSvM",
     pics: [film2, film3, film4, film5, film6],
 
-  
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
   },
 
   {
     category: "Multimedia",
-    subcategory :"Graphic Design",
-    
+    subcategory: "Branding",
+
     id: 72,
     img: k0,
     title: "Khashabi",
@@ -663,27 +661,20 @@ const data = [
       "Khashabi is a project of reusing wood and converting it into usable art pieces. project was done in (2017).",
     video: "https://youtu.be/ppMEDzUk3lk",
     pics: [k1, k2, k3, k4, k5, k6, k7, k8, k9],
-   
-
-    
   },
   {
     category: "Multimedia",
-    subcategory :"Graphic Design",
+    subcategory: "Graphic Design",
     id: 73,
     img: logos,
     title: "Logos",
     brief: "",
-    introPara:
-      "",
+    introPara: "",
     pics: [l1, l2, l3, l4],
-    
-
-   
   },
   {
     category: "User Interfaces",
-    subcategory :"User Interface",
+    subcategory: "User Interface",
     id: 74,
 
     img: Dashboard,
@@ -692,59 +683,45 @@ const data = [
     introPara:
       "User friendly and responsive dashboard interface. Designed in (2022).",
     pics: [d1, d2, d3, d4, d5, d6, d7, d8, d9],
-    
-
-  
   },
   {
     category: "User Interfaces",
-    subcategory :"User Interface",
+    subcategory: "User Interface",
     id: 75,
 
     img: c2,
     title: "Search screen",
     brief: "Search screen design for a car-rental website",
-    introPara:
-      "Designed in (2022).",
+    introPara: "Designed in (2022).",
     pics: [c2, c1],
-    
-   
   },
   {
     category: "User Interfaces",
-    subcategory :"User Interface",
+    subcategory: "User Interface",
     id: 76,
 
     img: mogallery,
     title: "MO Gallery",
     brief: "Photographers Booking Website.",
-    introPara:
-      "Online Booking system for Photographers. Designed in (2020)",
-    url:"https://www.mogalleryjo.com/app/",
+    introPara: "Online Booking system for Photographers. Designed in (2020)",
+    url: "https://www.mogalleryjo.com/app/",
     pics: [mo1, mo2, mo3],
-   
-
-   
   },
   {
     category: "User Interfaces",
-    subcategory :"User Interface",
+    subcategory: "User Interface",
     id: 77,
-   
-   
+
     img: e1,
     title: "Eventful",
     brief: "Events app design",
     introPara:
-    "Eventful is an app to discover popular and nearby events. Designed in (2019)",
+      "Eventful is an app to discover popular and nearby events. Designed in (2019)",
     pics: [e2, e3, e4, e5],
-  
-
-  
   },
   {
     category: "Ux Case Studies",
-    subcategory :"Ux Case Study",
+    subcategory: "Ux Case Study",
     id: 78,
 
     img: carGame,
@@ -752,8 +729,8 @@ const data = [
     brief: "HUD screen for a car game",
     introPara:
       "Alternative sketches and high-fidelity interfaces for the car controller in a car game. Designed for a game company in (2022).",
-    
-      header1: "Information",
+
+    header1: "Information",
     ul1: [
       "Tools: Figma, Miro, illustrator, photoshop.",
       "Duration: 4 Days.",
@@ -818,29 +795,24 @@ const data = [
     ul13: ["Could create a bad experience on small screens."],
 
     pics: [d1HiFi, d2HiFi, d3HiFi],
-    
-
-   
   },
   {
     category: "Programming",
     subcategory: "Programming",
     id: 79,
-    
 
     img: iOverview,
     title: "Init app",
-   
+
     brief: "Built with Java language (Spring Boot)",
     introPara:
       "Init is an interactive app that gather programmers in one place and help beginner programmers to start. This app was developed in 2021",
-      url:"https://github.com/SSD-Coders/init",
+    url: "https://github.com/SSD-Coders/init",
     header1: "Information",
     ul1: [
       "Duration : 1 week.",
       "Team: 7 Members.",
       "My role: Frontend developing side and Design.",
-      
     ],
 
     header2: "Technologies & Tools",
@@ -867,38 +839,31 @@ const data = [
       "Lobby chat(group chatting between users).",
     ],
 
-    para7:
-    "Feed page that displays all the posts by the users you follow.",
-  profoto2: [i9],
+    para7: "Feed page that displays all the posts by the users you follow.",
+    profoto2: [i9],
 
-  para11:
-  "Users can take quizes and get their score.",
-profoto3: [i10, i11],
+    para11: "Users can take quizes and get their score.",
+    profoto3: [i10, i11],
 
     pics: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15],
-   
-
-  
   },
   {
     category: "Programming",
     subcategory: "Programming",
     id: 80,
 
-   
     img: wOverview,
     title: "WeekBeat",
-   
+
     brief: "Built with Reactjs (JavaScript)",
     introPara:
       "A full CRUD app that contain suggestions to different entertainment activities and events. Displayed depends on the location that the user enter. Developed in (2021)",
-      url:"https://github.com/react-warriors-301",
+    url: "https://github.com/react-warriors-301",
     header1: "Information",
     ul1: [
       "Duration : 1 week.",
       "Team: 5 Members.",
       "My role: worked on the frontend and the backend.",
-      
     ],
     header2: "Technologies & Tools",
     ul2: [
@@ -909,7 +874,6 @@ profoto3: [i10, i11],
       "Nodejs",
       "Html,CSS",
       "Axios",
-     
     ],
 
     header4: "Features",
@@ -918,21 +882,9 @@ profoto3: [i10, i11],
       "User can add or delete any activity to their favorite list.",
       "User can (add, delete, and edit) their blog.",
       "Website displays different suggestions to activity, movies, restaurants, events that are happening on a specific location that the user enters.  ",
-      
     ],
 
-    pics: [
-       w1,
-       w2, 
-       w3,
-       w4,
-       w5,
-       w6,
-       w7,
-    ],
-    
-
-   
+    pics: [w1, w2, w3, w4, w5, w6, w7],
   },
   {
     category: "Programming",
@@ -943,42 +895,22 @@ profoto3: [i10, i11],
     title: "Code Care",
     brief: "Built with Vanilla JavaScript",
     introPara:
-    "A website that has coding courses and other products. Developed in (2021)",
-    url:"https://github.com/The-A-Team-2021/Code-Care",
+      "A website that has coding courses and other products. Developed in (2021)",
+    url: "https://github.com/The-A-Team-2021/Code-Care",
     header1: "Information",
-    ul1: [
-      "Duration : 1 week.",
-      "Team: 4 Members.", 
-    ],
+    ul1: ["Duration : 1 week.", "Team: 4 Members."],
 
     header2: "Technologies & Tools",
-    ul2: [
-      "Vanilla JavaScript",
-      "Html",
-      "Css",
-      
-     
-    ],
+    ul2: ["Vanilla JavaScript", "Html", "Css"],
 
     header4: "Features",
     ul4: [
       "The website has different products.",
       "User can add and delete any product to the cart.",
-      "User can test their CSS, Html and JS code using the website's code editor.", 
+      "User can test their CSS, Html and JS code using the website's code editor.",
     ],
 
-    pics: [
-      cc1,
-      cc2,
-      cc3,
-      cc4,
-      cc5,
-      cc6,
-      cc7,
-    ],
-   
-
-   
+    pics: [cc1, cc2, cc3, cc4, cc5, cc6, cc7],
   },
 ];
 

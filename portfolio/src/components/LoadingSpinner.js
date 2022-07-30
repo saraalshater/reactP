@@ -5,7 +5,7 @@ import "./Spinner.css";
 
 function LoadingSpinner(params) {
     return (
-    <div class="loader"></div>
+    <div className="loader"></div>
     );
 }
 

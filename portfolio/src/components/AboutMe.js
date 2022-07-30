@@ -1,4 +1,3 @@
-import BurgerWeb from "./BurgerWeb";
 import Contact from "./Contact";
 import { useEffect, useRef } from "react";
 import "./AboutMe.css";
@@ -7,7 +6,7 @@ import uniJoLogo from "../assets/University_of_Jordan_Logo_2.png";
 import isiLogo from "../assets/isi_logo_2.png";
 import codeLogo from "../assets/code_fellows_logo.png";
 import googleLogo from "../assets/Google_Logo.png";
-import Footer from "./Footer";
+
 function AboutMe() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -47,24 +46,32 @@ function AboutMe() {
             }}
           />
           <p>
-          My name is Sara Alshater, I graduated in 2019 with a BA in Visual Arts/Multimedia.
-Studying multimedia introduced me and grow my interests to many forms of arts. 
-  
-
-   
-
-          </p>
-        
-          <p>
-          After I graduated I landed my first job as UX/UI designer. I like this field because it’s a combination of design, technology and human computer interaction.
-          </p>
-         
-          <p>
-          As the pandemic started it has become apparent to me that our lives are highly dependent on technology. Out of this dependency grows a need for technological innovation and the need for professional expertise and guidance. I have come to realize that I desire to develop my skills and learn programming. I started my programming career in 2021.
+            My name is Sara Alshater, I graduated in 2019 with a BA in Visual
+            Arts/Multimedia. Studying multimedia introduced me and grow my
+            interests to many forms of arts.
           </p>
 
           <p>
-          Now I am focusing to enhance my skills on both frontend developing and UX/UI design. I hope to dedicate myself wholly and make sure that what I am building and designing is a usable product that will help and benefit it users while also considering its morality and ethical humane use.
+            After I graduated I landed my first job as UX/UI designer. I like
+            this field because it’s a combination of design, technology and
+            human computer interaction.
+          </p>
+
+          <p>
+            As the pandemic started it has become apparent to me that our lives
+            are highly dependent on technology. Out of this dependency grows a
+            need for technological innovation and the need for professional
+            expertise and guidance. I have come to realize that I desire to
+            develop my skills and learn programming. I started my programming
+            career in 2021.
+          </p>
+
+          <p>
+            Now I am focusing to enhance my skills on both frontend developing
+            and UX/UI design. I hope to dedicate myself wholly and make sure
+            that what I am building and designing is a usable product that will
+            help and benefit it users while also considering its morality and
+            ethical humane use.
           </p>
         </div>
       </div>
@@ -183,8 +190,6 @@ Studying multimedia introduced me and grow my interests to many forms of arts.
       <div ref={scrollRef}>
         <Contact />
       </div>
-
-    
     </>
   );
 }
