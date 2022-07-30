@@ -55,7 +55,7 @@ function Home() {
 
       <div className="lastest-projects-container">
         <div className="lastest-projects-contants">
-          <h1>Latest Projects</h1>
+          <h1>Latest projects</h1>
           <div className="Cards-container">
             {cardItem
               .filter((id) => id.id === 74 || id.id === 78 || id.id === 79)
