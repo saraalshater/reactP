@@ -1,19 +1,17 @@
 import Card from "./Card";
 import Footer from "./Footer";
-import { Link,Routes, Route, useParams } from "react-router-dom";
+
 import data from "./Data";
-import foto from "../assets/foto.jpg";
-import examplefoto from "../assets/examplefoto.jpg";
-import Burger from "./Burger";
+
 import "./BurgerWeb.css";
 import BurgerWeb from "./BurgerWeb";
 import "./UxUi.css";
-import RightNav from "./RightNav";
+
 import uxillus from "../assets/uxhands-whitebg.png";
 import uxillusAlign from "../assets/hands-phone-2.png";
 import { Fragment, useState, useEffect } from "react";
 import ContactBtn from "./ContactBtn";
-import ProjectView from "./ProjectView";
+
 import ContactbtnMobile from "./ContactbtnMobile";
 function UxUi(params) {
   const [cardItem, setCardItem] = useState(data);
