@@ -286,7 +286,7 @@ function ProjectView() {
                     return (
                       <div key={i}>
                         <div className="art-projects-contants">
-                          <h2></h2>
+                          
                           <Card cardItem={cardItem} cat={item.category} />
                         </div>
                       </div>

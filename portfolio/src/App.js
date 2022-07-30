@@ -7,20 +7,20 @@ import WebHeader from "./components/WebHeader";
 import LoadingSpinner from "./components/LoadingSpinner";
 import NotFound from "./components/NotFound";
 import UxUi from "./components/UxUi";
-// import Home from "./components/Home";
-// import Programming from "./components/Programming";
-// import Arts from "./components/Arts";
-// import AboutMe from "./components/AboutMe";
-// import Contact from "./components/Contact";
-// import ProjectView from "./components/ProjectView";
+import Home from "./components/Home";
+import Programming from "./components/Programming";
+import Arts from "./components/Arts";
+import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact";
+import ProjectView from "./components/ProjectView";
 
 // const UxUi = React.lazy(() => import("./components/UxUi"));
-const Programming = React.lazy(() => import("./components/Programming"));
-const Arts = React.lazy(() => import("./components/Arts"));
-const AboutMe = React.lazy(() => import("./components/AboutMe"));
-const Home = React.lazy(() => import("./components/Home"));
-const ProjectView = React.lazy(() => import("./components/ProjectView"));
-const Contact = React.lazy(() => import("./components/Contact"));
+// const Programming = React.lazy(() => import("./components/Programming"));
+// const Arts = React.lazy(() => import("./components/Arts"));
+// const AboutMe = React.lazy(() => import("./components/AboutMe"));
+// const Home = React.lazy(() => import("./components/Home"));
+// const ProjectView = React.lazy(() => import("./components/ProjectView"));
+// const Contact = React.lazy(() => import("./components/Contact"));
 
 function App() {
  
@@ -35,7 +35,7 @@ function App() {
  
   return (
     <>
-     <React.StrictMode>
+     
       <Suspense
         fallback={
           <div className="centered">
@@ -55,7 +55,7 @@ function App() {
         </Routes>
       </Suspense>
       <WebHeader />
-      </React.StrictMode>
+     
     </>
   );
 }

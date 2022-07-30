@@ -102,7 +102,7 @@ function Arts() {
               </div>
             ) : (
               <>
-                <div className="art-img-projects-contants">
+                <div className="art-img-projects-contants" >
                   <h1>{item.category}</h1>
                   <Img cardItem={cardItem} cat={item.category} />
                 </div>
