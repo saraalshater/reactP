@@ -5,8 +5,8 @@ function ContactbtnMobile(){
 
 return (
     <>
-    <Link to="/contact">
-        <a  className="contactIconMobile">  </a>
+    <Link to="/contact" className="contactIconMobile">
+     
         </Link>
     </>
 )

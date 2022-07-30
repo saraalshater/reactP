@@ -5,7 +5,7 @@ function Footer(params) {
     return(
         <>
        <div className="footer">
-<p>Developed and Designed by Sara Alshater&copy;2022</p>
+<p>&copy; 2022 Designed and Developed by Sara Alshater</p>
        </div>
       
         </>

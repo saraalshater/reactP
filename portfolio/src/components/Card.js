@@ -1,14 +1,12 @@
-
 import "./Card.css";
-import foto from "../assets/foto.jpg";
-import { Link, useParams } from "react-router-dom";
-import { useState } from "react";
+
+import { Link } from "react-router-dom";
 
 function Card({ cardItem, cat }) {
   return (
     <>
       <div className="Cards-container">
-        {cardItem.map((item,i) => {
+        {cardItem.map((item, i) => {
           return item.category === cat ? (
             <div className="card-container" key={i}>
               <img src={item.img} alt="example" className="card-img" />
@@ -25,14 +23,5 @@ function Card({ cardItem, cat }) {
     </>
   );
 }
-// { cardItem.filter(type => type.category == "Film photography").map((item) =>{
-//   return (
-//     <>
-//     <h2>{item.category}</h2>
-// <Card cardItem={cardItem}/>
-// </>
-//   )
-// })
-// }
 
 export default Card;

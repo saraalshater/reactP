@@ -5,8 +5,8 @@ function ContactBtn(){
 
 return (
     <>
-    <Link to="/contact">
-        <a  className="contactIcon text"> <p className="pInBtn">Contact me</p> </a>
+    <Link to="/contact" className="contactIcon text">
+         <p className="pInBtn">Contact me</p> 
         </Link>
     </>
 )
