@@ -8,7 +8,7 @@ function Card({ cardItem, cat }) {
       <div className="Cards-container">
         {cardItem.map((item, i) => {
           return item.category === cat ? (
-            <div className="card-container" key={i}>
+            <div key={i} className="card-container" >
               <img src={item.img} alt="example" className="card-img" />
               <h2>{item.title}</h2>
               <p className="category">{item.subcategory}</p>

@@ -13,7 +13,7 @@ function Img({ cardItem, cat }) {
         <div className="project-pictures" style={{paddingTop: "1rem"}} >
           { cardItem.map((pic,i)=> {
             return pic.category === cat ? (
-          <div className="img-frame" key={i}>
+          <div key={i} className="img-frame" >
 
             <img src={pic.pics} alt="img" className="img-pro" />
           </div>

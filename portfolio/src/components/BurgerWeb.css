@@ -8,7 +8,6 @@
 
     .nav-web {
       position: fixed;
-      
       left: 0px;
       right: 0px;
       top: 0px;
@@ -43,6 +42,7 @@
       right: 16px;
       top: 26px;
       display: block;
+      /* padding-top: 5rem; */
     }
   
     .rightNavweb-container{
@@ -51,7 +51,7 @@
       height: 100vh;
       right: 0px;
       top: 0px;
-  
+  padding-top: 5rem;
       /* Primary/Green */
   
       background: #3e8f62;

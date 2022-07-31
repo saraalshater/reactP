@@ -41,10 +41,7 @@ function UxUi(params) {
       <ContactBtn/>
       <ContactbtnMobile/>
       <div className="illstration-container">
-        <div className="illstration-caption">
-        
-          <p className="category-intro">I like this field because it’s a combination of design, technology and human computer interaction.</p>
-        </div>
+       
 
         <div className="uxDrawing">
           <img
@@ -60,12 +57,16 @@ function UxUi(params) {
             style={{ width: "100%", height: "100%", objectFit: "contain" }}
           ></img>
         </div>
+        <div className="illstration-caption">
+        
+        <p className="category-intro">I like this field because it’s a combination of design, technology and human computer interaction.</p>
+      </div>
       </div>
 
       <div className="ux-projects-container">
        
          
-        {uniqueCat.filter(id=> id.id > 73  && id.id < 79).map((item , i) => {
+        {uniqueCat.filter(id=> id.id > 70  && id.id < 76).map((item , i) => {
           return (
             <div key={i}>
               <div className="ux-projects-contants">

@@ -58,7 +58,7 @@ function Home() {
           <h1>Latest projects</h1>
           <div className="Cards-container">
             {cardItem
-              .filter((id) => id.id === 74 || id.id === 78 || id.id === 79)
+              .filter((id) => id.id === 71 || id.id === 75 || id.id === 76)
               .map((item, i) => {
                 return (
                   <div key={i}>

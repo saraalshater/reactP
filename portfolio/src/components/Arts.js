@@ -16,7 +16,7 @@ import artIllmob from "../assets/white-bg-wtring.png";
 
 const allCategories = [
   "All",
-  ...new Set(data.filter((id) => id.id < 73).map((item) => item.category)),
+  ...new Set(data.filter((id) => id.id < 71).map((item) => item.category)),
 ];
 
 function Arts() {
@@ -51,6 +51,7 @@ function Arts() {
     return false;
   });
 
+  
 
 
   return (
@@ -59,13 +60,7 @@ function Arts() {
       <ContactBtn />
       <ContactbtnMobile />
       <div className="art-illstration-container">
-        <div className="art-illstration-caption">
-          <p className="category-intro">
-            Art is my way to express myself and how I see the world. I get
-            inspired by people, nature and music.
-          </p>
-          <p></p>
-        </div>
+       
 
         <div className="artDrawing">
           <img
@@ -76,10 +71,18 @@ function Arts() {
           ></img>
           <img
             className="pic2"
-            src={artIllmob}
+            src={watering}
             alt="hand watering a plant"
             style={{ width: "100%", height: "100%", objectFit: "contain" }}
           ></img>
+        </div>
+
+        <div className="art-illstration-caption">
+          <p className="category-intro">
+            Art is my way to express myself and how I see the world. I get
+            inspired by people, nature and music.
+          </p>
+          
         </div>
       </div>
 
@@ -90,7 +93,7 @@ function Arts() {
 
       <div className="art-container">
         {uniqueCat
-          .filter((id) => id.id < 73)
+          .filter((id) => id.id < 71)
           .map((item, i) => {
             return item.category === "Filmmaking" ||
               item.category === "Multimedia" ? (
@@ -101,12 +104,12 @@ function Arts() {
                 </div>
               </div>
             ) : (
-              <>
-                <div className="art-img-projects-contants" >
+              
+                <div key={i} className="art-img-projects-contants" >
                   <h1>{item.category}</h1>
                   <Img cardItem={cardItem} cat={item.category} />
                 </div>
-              </>
+              
             );
           })}
       </div>

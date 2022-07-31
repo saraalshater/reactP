@@ -33,10 +33,7 @@ function Programming(params) {
       <ContactBtn />
       <ContactbtnMobile/>
       <div className="illstration-container">
-        <div className="illstration-caption">
-          <p className="category-intro">These projects were done working in teams, where mostly my role was on frontend side.</p>
-         
-        </div>
+      
 
         <div className="uxDrawing">
           <img
@@ -52,6 +49,11 @@ function Programming(params) {
             style={{ width: "100%", height: "100%", objectFit: "contain" }}
           ></img>
         </div>
+
+        <div className="illstration-caption">
+          <p className="category-intro">These projects were done working in teams, where mostly my role was on frontend side.</p>
+         
+        </div>
       </div>
 
 
@@ -59,7 +61,7 @@ function Programming(params) {
       <div className="ux-projects-container">
         <div className="ux-projects-contants">
           {uniqueCat
-            .filter((id) => id.id > 78 && id.id <82)
+            .filter((id) => id.id > 75 && id.id <80)
             .map((item, i) => {
               return (
                 <div key={i}>

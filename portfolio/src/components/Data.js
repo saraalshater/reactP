@@ -379,140 +379,140 @@ const data = [
   },
   {
     category: "Film photography",
-    id: 34,
+    id: 32,
 
     pics: [foto34],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 35,
+    id: 33,
 
     pics: [foto35],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 36,
+    id: 34,
 
     pics: [foto36],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 37,
+    id: 35,
 
     pics: [foto37],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 38,
+    id: 36,
 
     pics: [foto38],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 39,
+    id: 37,
 
     pics: [foto39],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 40,
+    id: 38,
 
     pics: [foto40],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 41,
+    id: 39,
 
     pics: [foto41],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 42,
+    id: 40,
 
     pics: [foto42],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 43,
+    id: 41,
 
     pics: [foto43],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 44,
+    id: 42,
 
     pics: [foto44],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 45,
+    id: 43,
 
     pics: [foto45],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 46,
+    id: 44,
 
     pics: [foto46],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 47,
+    id: 45,
 
     pics: [foto47],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 48,
+    id: 46,
 
     pics: [foto48],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 49,
+    id: 47,
 
     pics: [foto49],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 50,
+    id: 48,
 
     pics: [foto50],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 51,
+    id: 49,
 
     pics: [foto51],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 52,
+    id: 50,
 
     pics: [foto52],
     subcategory: "arts",
   },
   {
     category: "Film photography",
-    id: 53,
+    id: 51,
 
     pics: [foto53],
     subcategory: "arts",
@@ -520,63 +520,63 @@ const data = [
 
   {
     category: "Collages",
-    id: 54,
+    id: 52,
 
     pics: [collage1],
     subcategory: "arts",
   },
   {
     category: "Collages",
-    id: 55,
+    id: 53,
 
     pics: [collage2],
     subcategory: "arts",
   },
   {
     category: "Collages",
-    id: 56,
+    id: 54,
 
     pics: [collage3],
     subcategory: "arts",
   },
   {
     category: "Collages",
-    id: 57,
+    id: 55,
 
     pics: [collage4],
     subcategory: "arts",
   },
   {
     category: "Collages",
-    id: 58,
+    id: 56,
 
     pics: [collage5],
     subcategory: "arts",
   },
   {
     category: "Collages",
-    id: 59,
+    id: 57,
 
     pics: [collage6],
     subcategory: "arts",
   },
   {
     category: "Collages",
-    id: 60,
+    id: 58,
 
     pics: [collage7],
     subcategory: "arts",
   },
   {
     category: "Collages",
-    id: 61,
+    id: 59,
 
     pics: [collage8],
     subcategory: "arts",
   },
   {
     category: "Collages",
-    id: 62,
+    id: 60,
 
     pics: [collage9],
     subcategory: "arts",
@@ -584,28 +584,28 @@ const data = [
 
   {
     category: "Sketches",
-    id: 63,
+    id: 61,
 
     subcategory: "arts",
     pics: [sktsh1],
   },
   {
     category: "Sketches",
-    id: 64,
+    id: 62,
 
     pics: [sktsh2],
     subcategory: "arts",
   },
   {
     category: "Sketches",
-    id: 65,
+    id: 63,
 
     pics: [sktsh3],
     subcategory: "arts",
   },
   {
     category: "Sketches",
-    id: 66,
+    id: 64,
 
     pics: [sktsh4],
     subcategory: "arts",
@@ -613,21 +613,21 @@ const data = [
 
   {
     category: "Sketches",
-    id: 68,
+    id: 65,
 
     pics: [sktsh5],
     subcategory: "arts",
   },
   {
     category: "Sketches",
-    id: 69,
+    id: 66,
 
     pics: [sktsh6],
     subcategory: "arts",
   },
   {
     category: "Sketches",
-    id: 70,
+    id: 67,
 
     pics: [sktsh7],
     subcategory: "arts",
@@ -635,13 +635,13 @@ const data = [
   {
     category: "Filmmaking",
     subcategory: "Filmmaking",
-    id: 71,
+    id: 68,
 
     img: cover,
     title: "Out Of Silance",
 
-    brief: "Short movie",
-    introPara: "A short movie that i wrote and directed in 2018.",
+    brief: "Experimental Short movie",
+    introPara: "A short movie that I wrote and directed in 2018.",
     video: "https://www.youtube.com/watch?v=RmiI72-iSvM",
     pics: [film2, film3, film4, film5, film6],
 
@@ -653,7 +653,7 @@ const data = [
     category: "Multimedia",
     subcategory: "Branding",
 
-    id: 72,
+    id: 69,
     img: k0,
     title: "Khashabi",
     brief: "Wood recycling project",
@@ -665,7 +665,7 @@ const data = [
   {
     category: "Multimedia",
     subcategory: "Graphic Design",
-    id: 73,
+    id: 70,
     img: logos,
     title: "Logos",
     brief: "",
@@ -675,7 +675,7 @@ const data = [
   {
     category: "User Interfaces",
     subcategory: "User Interface",
-    id: 74,
+    id: 71,
 
     img: Dashboard,
     title: "Dashboard Design",
@@ -687,7 +687,7 @@ const data = [
   {
     category: "User Interfaces",
     subcategory: "User Interface",
-    id: 75,
+    id: 72,
 
     img: c2,
     title: "Search screen",
@@ -698,7 +698,7 @@ const data = [
   {
     category: "User Interfaces",
     subcategory: "User Interface",
-    id: 76,
+    id: 73,
 
     img: mogallery,
     title: "MO Gallery",
@@ -710,7 +710,7 @@ const data = [
   {
     category: "User Interfaces",
     subcategory: "User Interface",
-    id: 77,
+    id: 74,
 
     img: e1,
     title: "Eventful",
@@ -722,7 +722,7 @@ const data = [
   {
     category: "Ux Case Studies",
     subcategory: "Ux Case Study",
-    id: 78,
+    id: 75,
 
     img: carGame,
     title: "HUD screen",
@@ -799,7 +799,7 @@ const data = [
   {
     category: "Programming",
     subcategory: "Programming",
-    id: 79,
+    id: 76,
 
     img: iOverview,
     title: "Init app",
@@ -850,7 +850,7 @@ const data = [
   {
     category: "Programming",
     subcategory: "Programming",
-    id: 80,
+    id: 77,
 
     img: wOverview,
     title: "WeekBeat",
@@ -889,7 +889,7 @@ const data = [
   {
     category: "Programming",
     subcategory: "Programming",
-    id: 81,
+    id: 78,
 
     img: Ccv,
     title: "Code Care",
