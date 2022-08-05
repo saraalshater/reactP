@@ -51,7 +51,7 @@ function Programming(params) {
         </div>
 
         <div className="illstration-caption">
-          <p className="category-intro">These projects were done working in teams, where mostly my role was on frontend side.</p>
+          <p className="category-intro">These projects were done while working as part of different teams, my role was often working on the frontend side.</p>
          
         </div>
       </div>

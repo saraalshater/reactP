@@ -59,7 +59,7 @@ function UxUi(params) {
         </div>
         <div className="illstration-caption">
         
-        <p className="category-intro">I like this field because it’s a combination of design, technology and human computer interaction.</p>
+        <p className="category-intro">I am interested in UX/UI design because it’s a merging of design, technology and human computer interaction.</p>
       </div>
       </div>
 

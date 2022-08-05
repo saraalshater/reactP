@@ -47,31 +47,30 @@ function AboutMe() {
           />
           <p>
             My name is Sara Alshater, I graduated in 2019 with a BA in Visual
-            Arts/Multimedia. Studying multimedia introduced me and grow my
-            interests to many forms of arts.
+            Arts/Multimedia. Studying multimedia introduced me and grew my interests to different forms of arts.
           </p>
 
           <p>
-            After I graduated I landed my first job as UX/UI designer. I like
-            this field because it’s a combination of design, technology and
-            human computer interaction.
+            After I graduated I landed my first job as UX/UI designer. I got more 
+            interested in this field, and i have designed multiple apps and websites. 
           </p>
 
           <p>
-            As the pandemic started it has become apparent to me that our lives
-            are highly dependent on technology. Out of this dependency grows a
-            need for technological innovation and the need for professional
-            expertise and guidance. I have come to realize that I desire to
-            develop my skills and learn programming. I started my programming
-            career in 2021.
+            Looking back to 2020 the dependency on technology has increased due
+            to the world sudden crisis. Out of this dependency grew I have come
+            to realize that I desire to develop my skills and learn programming.
           </p>
-
           <p>
-            Now I am focusing to enhance my skills on both frontend developing
-            and UX/UI design. I hope to dedicate myself wholly and make sure
-            that what I am building and designing is a usable product that will
-            help and benefit it users while also considering its morality and
-            ethical humane use.
+            
+            I started my programming career in 2021. I studied and worked with
+            different technologies and languages such as JaveScript, Java, Css
+            and Html. Now in 2022 I am focusing on enhancing my skills in
+            frontend development and ux/ui design along with my other artist
+            pursuits.
+          </p>
+          <p>
+            My goal is to dedicate myself to my profession and craft while
+            designing and building usable products to help and benefit others.
           </p>
         </div>
       </div>
@@ -148,7 +147,7 @@ function AboutMe() {
             <div style={{ flexGrow: "8", paddingLeft: "1rem" }}>
               <h3>Code Fellows</h3>
               <p>Full-stack software development</p>
-              <p>Amman - Jordan</p>
+              <p>Remotely</p>
             </div>
             <div
               style={{ flexGrow: "1", textAlign: "right", padding: "40px 0" }}
@@ -176,7 +175,7 @@ function AboutMe() {
             <div
               style={{ flexGrow: "1", textAlign: "right", padding: "40px 0" }}
             >
-              <h3>On going</h3>
+              <h3>2022</h3>
             </div>
           </div>
         </div>

@@ -681,7 +681,7 @@ const data = [
     title: "Dashboard Design",
     brief: "Dashboard design for a Human Resource Management system",
     introPara:
-      "User friendly and responsive dashboard interface. Designed in (2022).",
+      "User friendly and responsive dashboard interface. Designed using Figma in (2022).",
     pics: [d1, d2, d3, d4, d5, d6, d7, d8, d9],
   },
   {
@@ -739,40 +739,40 @@ const data = [
       "Deliverables: High-fidelity UI screen.",
     ],
 
-    header2: "Search process",
+    header2: "Research process",
     ul2: [
-      "Played car games by Shanab company and other best rating car games.",
-      "Research accessibility standards in games.",
+      "Played car games by the company and other highly rated car games.",
+      "Researched accessibility standards for games.",
       "Synthesize data.",
-      "Sketch screens and wireframe.",
-      "Research about car controls mode.",
-      "Conduct quick tests with family members by playing similar car games, members ages between (4-30).",
+      "Sketch screens and wireframes.",
+      "Researched about car controls mode.",
+      "Conduct quick tests with members by playing similar car game, members were aged between 4-30.",
     ],
-    header3: "First design(Choosen design):",
+    header3: "First design (Choosen design):",
     para3:
-      "This design focuses on the most important and usable buttons to players by making them clear and reachable, while considering the target audience ages and needs. The sketch shows all the HUD requirement buttons. Divided to color based on its importance to the player.",
+      "This design focuse on the most used buttons by the players, by making the buttons clear and reachable, while considering the target audience ages and needs. The sketch display all the HUD requirement buttons. Divided to colors based on its importance to the player.",
     profoto1: [d1Sktch, d1HiFi],
     header4: "Notes",
     ul4: [
       "Auto button is for the gear, when its ON the gear changes automatically when its OFF the player can change the gear. The default option is ON.",
-      "Gear on the left side because right hand will be used for the acceleration and breaks at the same time of using the gear.",
+      "The gear is located on the left side of the screen and ones right hand will be used for acceleration and breaking at the same time of using the gear",
     ],
     header5: "Advantages:",
     ul5: ["Clear and easy", "Considers the needs of all the target audience"],
     header6: "Disadvantages:",
-    ul6: ["A lot of visuals which can be distractive"],
+    ul6: ["A lot of visuals could be distractive"],
 
     header7: "Second Design:",
     para7:
-      "This design focusing on giving the user a good experience by reducing the graphical interfaces on the HUD.",
+      "This design is focusing on giving the user a good experience by reducing the graphical interfaces on the HUD.",
     profoto2: [d2Sktch, d2HiFi],
     header8: "Notes",
     ul8: [
       "Nitrous can be implemented by swiping up in the middle area of the screen, swipe up again to turn it off.",
       "Handbreak can be implemented by swiping down in the middle area of the screen, swipe down again to turn it off.",
       "User can change the gear by the arrows in the speedometer.",
-      "Speedometer on the left of the screen because it contain the gear controller considering that right hand will be used for the acceleration while left hand using the gear.",
-      "These instructions should be displayed to users in the tutorial.",
+      "Speedometer on the left of the screen because it contains the gear controller considering that right hand will be used for the acceleration while left hand using the gear.",
+      "These instructions should be displayed to users in a tutorial.",
     ],
     header9: "Advantages:",
     ul9: [
@@ -806,7 +806,7 @@ const data = [
 
     brief: "Built with Java language (Spring Boot)",
     introPara:
-      "Init is an interactive app that gather programmers in one place and help beginner programmers to start. This app was developed in 2021",
+      "Init is an interactive app that gathers programmers in one place and help beginner learners of programmering to start. This app was developed in 2021.",
     url: "https://github.com/SSD-Coders/init",
     header1: "Information",
     ul1: [
@@ -829,12 +829,12 @@ const data = [
 
     header4: "Features",
     ul4: [
-      "User can register and have a profile.",
-      "User can follow and unfollow other users.",
-      "User can comment and like other users posts.",
-      "User can (add, delete, post and edit) their posts and comments.",
-      "User can update their profile.",
-      "User can get courses from the website ",
+      "Users can register and have a profile.",
+      "Users can follow and unfollow other users.",
+      "Users can comment and like other users posts.",
+      "Users can (add, delete, post and edit) their posts and comments.",
+      "Users can update their profile.",
+      "Users can get courses from the website ",
       "Admin panel (Admin can manage, add and delete any user).",
       "Lobby chat(group chatting between users).",
     ],
@@ -857,7 +857,7 @@ const data = [
 
     brief: "Built with Reactjs (JavaScript)",
     introPara:
-      "A full CRUD app that contain suggestions to different entertainment activities and events. Displayed depends on the location that the user enter. Developed in (2021)",
+      "A full CRUD app that contain suggestions to different entertainment activities and events. Displayed depends on the location that the user enters. Developed in (2021)",
     url: "https://github.com/react-warriors-301",
     header1: "Information",
     ul1: [
@@ -878,10 +878,10 @@ const data = [
 
     header4: "Features",
     ul4: [
-      "User can register and have a profile.",
-      "User can add or delete any activity to their favorite list.",
-      "User can (add, delete, and edit) their blog.",
-      "Website displays different suggestions to activity, movies, restaurants, events that are happening on a specific location that the user enters.  ",
+      "Users can register and have a profile.",
+      "Users can add or delete any activity to their favorite list.",
+      "Users can (add, delete, and edit) their blog.",
+      "Website displays different suggestions for example (activity, movies, restaurants, and events that are happening on a specific location that the user enters).  ",
     ],
 
     pics: [w1, w2, w3, w4, w5, w6, w7],
@@ -905,9 +905,9 @@ const data = [
 
     header4: "Features",
     ul4: [
-      "The website has different products.",
-      "User can add and delete any product to the cart.",
-      "User can test their CSS, Html and JS code using the website's code editor.",
+      "The website has different products such as laptos, chairs and courses.",
+      "Users can add or delete any product to the cart.",
+      "Users can test their CSS, Html and JS codes using the website's code editor.",
     ],
 
     pics: [cc1, cc2, cc3, cc4, cc5, cc6, cc7],

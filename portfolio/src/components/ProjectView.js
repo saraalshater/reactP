@@ -45,8 +45,8 @@ function ProjectView() {
       <ContactbtnMobile/>
       {selectedPrject.map((item, i) => {
         return (
-          <>
-            <div className="project" key={i}>
+          <div key={i}>
+            <div className="project" >
               <div className="row">
                 <div className="intro-bg">
                   <div className="intro">
@@ -294,7 +294,7 @@ function ProjectView() {
                   })}
               </div>
             </div>
-          </>
+          </div>
         );
       })}
       <Footer />

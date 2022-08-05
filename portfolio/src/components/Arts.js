@@ -79,8 +79,7 @@ function Arts() {
 
         <div className="art-illstration-caption">
           <p className="category-intro">
-            Art is my way to express myself and how I see the world. I get
-            inspired by people, nature and music.
+          Art allowed me to blossom into the person I am today, while also allowing me to express myself and produce my vision for the world.
           </p>
           
         </div>

@@ -45,7 +45,7 @@ function Home() {
           <h1>Sara Alshater</h1>
           <p>
             UX/UI Designer and Web Developer that has multiple interests, and
-            passion for design and arts.
+           a passion for Design and Arts.
           </p>
           <Link to="/contact">
             <button>Contact me</button>
