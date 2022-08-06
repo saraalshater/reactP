@@ -14,7 +14,7 @@ function Card({ cardItem, cat }) {
               <p className="category">{item.subcategory}</p>
 
               <Link to={`/projectview/${item.id}`}>
-                <button className="card-btn">Veiw</button>
+                <button className="card-btn">View</button>
               </Link>
             </div>
           ) : null;
